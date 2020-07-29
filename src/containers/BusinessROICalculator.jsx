@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react';
-import calculator from '../calculator';
+import calculator from '../assets/calculator';
 
 export default function BusinessROICalculator({setResult}) {
   const [businesses, setBusinesses] = useState([])
