@@ -6,14 +6,17 @@ export default function BusinessROICalculator({setResult}) {
   const [addBusinessError, setAddBusinessError] = useState()
   const addNewForm = useRef()
 
+  // getBusiness(name) finds the items to every business.
   const getBusiness = (name) => businesses.find((item) => item.name === name)
 
+  // clear() clears and resets addNewForm, Result and Businesses.
   const clear = () => {
       addNewForm.current.reset()
       setResult([])
       setBusinesses([])
   }
 
+  // calculateResult(items) runs calculateBusiness function based on the value of the items in business.
   const calculateResult = (items) => {
 
 
@@ -24,6 +27,9 @@ export default function BusinessROICalculator({setResult}) {
     setResult(results)  
   }
 
+  // addBusiness(event) adds a business on event with name and pre-defined kpi's. 
+  // It calls for setAddBusinessError if a business with the same name is added.
+  // Each time you add a business you also reset the business input and calculate results.
   const addBusiness = (event) => {
     event.preventDefault()
     const name = event.target.businessName.value
@@ -51,6 +57,8 @@ export default function BusinessROICalculator({setResult}) {
     addNewForm.current.reset()
   }
 
+  // onBusinessFormChanged(event) takes the value of every business kpi 
+  // and calculate results on form change (when you add numbers to the kpi:s).
   const onBusinessFormChanged = (event) => {
     const business = getBusiness(event.target.form.name)
     const field = event.target.name
