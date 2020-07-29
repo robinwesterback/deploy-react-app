@@ -1,6 +1,12 @@
 @import url("/assets/css/reset.css");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@900&display=swap");
 
+/* ----------------------------------------------------------Colors */
+
+.background-black {
+    background-color: #161616;
+}
+
 /* ----------------------------------------------------------Special paddings/margins/text */
 
 h1,
@@ -71,10 +77,37 @@ button {
 /* ----------------------------------------------------------Footer */
 
 footer {
-  display: flex;
-  flex-flow: column;
   font-family: "Roboto", sans-serif;
   font-weight: 900;
   background-color: #1b1b1b;
   color: #FFFFFF;
+
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+}
+
+footer > div > h3 {
+    display: block;
+    font-size: 2rem;
+}
+
+footer > div > h4 {
+    font-size: 1.5rem;
+}
+
+footer > div > h6 {
+    font-size: 1rem;
+}
+
+footer > div > h6 > a {
+    color: #333333;
+}
+
+footer > div > h6 > a:hover {
+    color: #e86b3e;
+}
+
+footer > nav {
+    background-color: #222222;
 }
