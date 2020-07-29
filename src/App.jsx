@@ -3,11 +3,13 @@ import './App.css';
 
 import SiteHeader from './components/SiteHeader';
 import SiteContact from './components/SiteContact';
-import BusinessROICalculator from './containers/BusinessROICalculator';
 import SiteFooter from './components/SiteFooter';
+import BusinessROICalculator from './containers/BusinessROICalculator';
+import CampaignROICalculator from './containers/CampaignROICalculator';
 
 function App() {
   const [businessResults, setBusinessResults] = useState([])
+  const [campaignResults, setCampaignResults] = useState([])
 
   return (
     <div>
@@ -31,7 +33,7 @@ function App() {
             <div>
               <h2>Add a campaign</h2>
               <p className="orange-bold">Add a campaign by naming it to start defining your KPI:s.</p>
-              Campaign ROI Calculator
+              <CampaignROICalculator setResult={setCampaignResults} />
             </div>
           </section>  
 
@@ -50,7 +52,10 @@ function App() {
             </div>
 
             <div>
-              Campaign Results
+              {campaignResults.length > 0 &&
+            <ResultSection
+              title="Campaign result"
+              results={campaignResults} />}
             </div>
           </section>  
 

@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react';
-import calculator from '../assets/calculator';
+import calculator from '../assets/js/calculator';
 
 export default function BusinessROICalculator({setResult}) {
   const [businesses, setBusinesses] = useState([])
@@ -29,7 +29,7 @@ export default function BusinessROICalculator({setResult}) {
 
   // addBusiness(event) adds a business on event with name and pre-defined kpi's. 
   // It calls for setAddBusinessError if a business with the same name is added.
-  // Each time you add a business you also reset the business input and calculate results.
+  // Each time you add a business you also reset the add business input and calculate results.
   const addBusiness = (event) => {
     event.preventDefault()
     const name = event.target.businessName.value
@@ -99,7 +99,7 @@ export default function BusinessROICalculator({setResult}) {
           <span className="input-error-message">{addBusinessError}</span>
         )}
 
-        <button type="submit">Add business</button>
+        <button type="submit">Add</button>
       </form>
 
       {businesses.map((business, i) => (
@@ -143,7 +143,7 @@ export default function BusinessROICalculator({setResult}) {
         </form>
       ))}
 
-      <button type="button" onClick={clear}>Clear Businesses</button>
+      <button type="button" onClick={clear}>Clear</button>
     </div>
   )
 }
