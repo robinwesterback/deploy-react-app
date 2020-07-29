@@ -7,7 +7,7 @@ import BusinessROICalculator from './containers/BusinessROICalculator';
 
 function App() {
   const [businessResults, setBusinessResults] = useState([])
-  
+
   return (
     <div>
         <SiteHeader logoName="ROI Calculator" />
@@ -42,7 +42,10 @@ function App() {
             </p>
             
             <div>
-              ResultSection
+              {businessResults.length > 0 &&
+                <ResultSection
+                  title="Business results"
+                  results={businessResults} />}
             </div>
 
             <div>
@@ -84,5 +87,20 @@ function App() {
     </div>
   );
 }
+
+const ResultSection = ({title, results}) => (
+  <div>
+    <h3>{title}</h3>
+
+    {results.map((item, i) => (
+      <div key={i}>
+        <h4>{item.name}</h4>
+
+        <span>ROI: {item.result.roi}</span>
+        <span>Net ROI: {item.result.netRoi}</span>
+      </div>
+    ))}
+  </div>
+)
 
 export default App;
