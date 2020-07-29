@@ -1,2 +1,80 @@
 @import url("/assets/css/reset.css");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@900&display=swap");
+
+/* ----------------------------------------------------------Special paddings/margins/text */
+
+h1,
+h2,
+h3 {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+}
+
+/* ----------------------------------------------------------Classes */
+
+.body {
+  line-height: 1.8;
+  font-family: "Open Sans", sans-serif;
+  margin: 0 7.5% 0 7.5%;
+  background-color: #fafafa;
+  color: #333333;
+}
+
+.orange-bold {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #e86b3e;
+}
+
+input.has-error {
+  border: solid 1px #e86b3e;
+}
+
+.input-error-message {
+  display: block;
+  color: #e86b3e;
+}
+
+/* ----------------------------------------------------------Header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ----------------------------------------------------------Forms */
+
+form {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+input,
+textarea {
+  border: 0;
+  outline: 0;
+  border-bottom: 1px solid #a09b9b;
+  width: 100%;
+}
+
+button {
+  width: 40%;
+  font-size: 1.2rem;
+  height: 4rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  background-color: #333333;
+  color: #ffffff;
+}
+
+/* ----------------------------------------------------------Footer */
+
+footer {
+  display: flex;
+  flex-flow: column;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  background-color: #1b1b1b;
+  color: #FFFFFF;
+}
