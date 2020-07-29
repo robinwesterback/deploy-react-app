@@ -1,10 +1,13 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './App.css';
 
 import SiteHeader from './components/SiteHeader';
 import SiteContact from './components/SiteContact';
+import BusinessROICalculator from './containers/BusinessROICalculator';
 
 function App() {
+  const [businessResults, setBusinessResults] = useState([])
+  
   return (
     <div>
         <SiteHeader logoName="ROI Calculator" />
@@ -21,7 +24,7 @@ function App() {
             <div>
               <h2>Add a business</h2>
               <p className="orange-bold">Add a business by naming it to start defining your KPI:s.</p>
-              BusinessROICalculator
+              <BusinessROICalculator setResult={setBusinessResults} />
             </div>
 
             <div>
