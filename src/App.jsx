@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 
 import SiteHeader from './components/SiteHeader';
+import SiteContact from './components/SiteContact';
 
 function App() {
   return (
@@ -52,7 +53,7 @@ function App() {
               If you're in need of support? Do you want to feedback on any KPI:s or functionalities that you feel are missing?
               Contact us via the form below! 
             </p>
-            SiteContact
+            <SiteContact/>
           </section>
         </main>
 
