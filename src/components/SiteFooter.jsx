@@ -1,5 +1,8 @@
 import React from "react";
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebookSquare, faYoutubeSquare, faLinkedin, faVimeoSquare, faInstagramSquare } from "@fortawesome/free-brands-svg-icons";
+
 export default function SiteFooter() {
 
     return (
@@ -26,8 +29,11 @@ export default function SiteFooter() {
                 </h6>
             </div>
             <nav>
-                <p>copyright</p>
-                <p>privacy policy</p>
+                <FontAwesomeIcon icon={faLinkedin } />
+                <FontAwesomeIcon icon={faFacebookSquare } />
+                <FontAwesomeIcon icon={faYoutubeSquare } />
+                <FontAwesomeIcon icon={faVimeoSquare } />
+                <FontAwesomeIcon icon={faInstagramSquare } />
             </nav>
         </footer>
     );
