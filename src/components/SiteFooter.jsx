@@ -29,11 +29,40 @@ export default function SiteFooter() {
                 </h6>
             </div>
             <nav>
-                <FontAwesomeIcon icon={faLinkedin } />
-                <FontAwesomeIcon icon={faFacebookSquare } />
-                <FontAwesomeIcon icon={faYoutubeSquare } />
-                <FontAwesomeIcon icon={faVimeoSquare } />
-                <FontAwesomeIcon icon={faInstagramSquare } />
+                <a 
+                  href="https://www.linkedin.com/company/megapixel-group-ab/" 
+                  className="linkedin-blue"
+                  target="_blank">
+                  <FontAwesomeIcon icon={faLinkedin } />
+                </a>
+
+                <a 
+                  href="https://www.facebook.com/megapixelgroup"
+                  className="facebook-blue"
+                  target="_blank">
+                  <FontAwesomeIcon icon={faFacebookSquare } />
+                </a>
+
+                <a 
+                  href="https://www.youtube.com/channel/UCfy9Kk5xGDswA-lprRQLsNA"
+                  className="youtube-red"
+                  target="_blank">
+                  <FontAwesomeIcon icon={faYoutubeSquare } />
+                </a>
+
+                <a 
+                  href="https://vimeo.com/megapixel"
+                  className="vimeo-blue"
+                  target="_blank">
+                  <FontAwesomeIcon icon={faVimeoSquare } />
+                </a>
+                
+                <a 
+                  href="https://www.instagram.com/megapixelgroup/"
+                  className="instagram-blue"
+                  target="_blank">
+                  <FontAwesomeIcon icon={faInstagramSquare } />
+                </a>
             </nav>
         </footer>
     );

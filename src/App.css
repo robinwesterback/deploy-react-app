@@ -6,6 +6,26 @@
     background-color: #161616;
 }
 
+.facebook-blue:hover {
+    background-color: #3b5998;
+}
+
+.linkedin-blue:hover {
+    background-color: #1a81ad;
+}
+
+.youtube-red:hover {
+    background-color: #cc181e;
+}
+
+.vimeo-blue:hover {
+    background-color: #44bbff;
+}
+
+.instagram-blue:hover {
+    background-color: #3f729b;
+}
+
 /* ----------------------------------------------------------Special paddings/margins/text */
 
 h1,
@@ -75,15 +95,21 @@ button {
 
 /* ----------------------------------------------------------Footer */
 
-footer {
+footer, footer > div {
   font-family: "Roboto", sans-serif;
-  font-weight: 900;
   background-color: #1b1b1b;
   color: #FFFFFF;
 
   text-align: center;
   display: flex;
   flex-flow: column;
+}
+
+footer > div > h3,
+footer > div > h4,
+footer > div > h6,
+footer > div > h6 > a {
+    font-weight: 900;
 }
 
 footer > div > h3 {
@@ -108,5 +134,17 @@ footer > div > h6 > a:hover {
 }
 
 footer > nav {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
     background-color: #222222;
+    padding: 3rem 0 3rem 0;
+}
+
+footer > nav > a {
+  color: #ffffff;
+  border-radius: 60px;
+  background-color:rgba(255,255,255,0.2);
+  box-shadow: 0px 0px 2px #333333;
+  padding: 0.5em 0.6em;
 }
