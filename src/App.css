@@ -45,6 +45,10 @@ h3 {
   color: #333333;
 }
 
+.logo {
+    max-width: 50%;
+}
+
 .orange-bold {
   font-size: 1rem;
   font-weight: bold;
@@ -65,6 +69,8 @@ input.has-error {
 header {
   display: flex;
   justify-content: space-between;
+
+  padding: 1rem;
 }
 
 /* ----------------------------------------------------------Forms */
