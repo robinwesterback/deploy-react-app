@@ -16,7 +16,7 @@ function App() {
         <SiteHeader logoName="ROI Calculator" />
 
         <main className="body">
-          <section>
+          <section id="home">
             <h1>The ROI calculator</h1>
             <p>
               Define your KPI:s and calculate the results of your business or marketing investment. 
@@ -24,20 +24,20 @@ function App() {
           </section>
 
           <section>
-            <div>
+            <div id="business">
               <h2>Add a business</h2>
               <p className="orange-bold">Add a business by naming it to start defining your KPI:s.</p>
               <BusinessROICalculator setResult={setBusinessResults} />
             </div>
 
-            <div>
+            <div id="campaign">
               <h2>Add a campaign</h2>
               <p className="orange-bold">Add a campaign by naming it to start defining your KPI:s.</p>
               <CampaignROICalculator setResult={setCampaignResults} />
             </div>
           </section>  
 
-          <section>
+          <section id="roi">
             <h2>Calculate your ROI</h2>
             <p className="orange-bold">
                 Get your results based on the KPI:s you have added by clicking the button below. 
@@ -59,7 +59,7 @@ function App() {
             </div>
           </section>  
 
-          <section>
+          <section id="support">
             <h2>Support</h2>
             <p className="orange-bold">
               If you're in need of support? Do you want to feedback on any KPI:s or functionalities that you feel are missing?
