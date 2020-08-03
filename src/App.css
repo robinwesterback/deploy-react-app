@@ -2,6 +2,12 @@
 
 /* ----------------------------------------------------------Colors */
 
+.orange-bold {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #e86b3e;
+}
+
 .background-black {
     background-color: #161616;
 }
@@ -43,12 +49,6 @@ h3 {
   margin: 0 7.5% 0 7.5%;
   background-color: #fafafa;
   color: #333333;
-}
-
-.orange-bold {
-  font-size: 1rem;
-  font-weight: bold;
-  color: #e86b3e;
 }
 
 input.has-error {
