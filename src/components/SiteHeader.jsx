@@ -7,7 +7,9 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 export default function SiteHeader() {
     const [isOpen, setIsOpen] = useState(false);
 
-    const toggling = () => setIsOpen(!isOpen);
+    const toggling = () => {
+        setIsOpen(!isOpen);
+    }
 
     return (
         <header className="header">
@@ -15,8 +17,9 @@ export default function SiteHeader() {
             <img src={logo} alt="Logo"></img>
           </a>
 
+          <button onClick={toggling}><FontAwesomeIcon icon={faBars} /></button>
+
           <nav>
-            <button onClick={toggling}><FontAwesomeIcon icon={faBars} /></button>
             {isOpen && (
               <ul onClick={toggling}>
                 <li>

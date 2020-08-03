@@ -45,10 +45,6 @@ h3 {
   color: #333333;
 }
 
-.logo {
-    max-width: 50%;
-}
-
 .orange-bold {
   font-size: 1rem;
   font-weight: bold;
@@ -67,10 +63,42 @@ input.has-error {
 /* ----------------------------------------------------------Header */
 
 header {
-  display: flex;
-  justify-content: space-between;
+    margin: 1rem 7.5% 1rem 7.5%;
+}
 
-  padding: 1rem;
+.logo img {
+    width: 225px;
+}
+
+header button {
+    font-size: 22px;
+    float: right;
+    width: 40px;
+    height: 40px;
+}
+
+header nav ul {
+    list-style: none;
+    padding-inline-start: 0px;
+    line-height: 1.8;
+}
+
+header nav ul li {
+    color: rgb(68,68,68);
+    line-height: 1.5;
+    font-family: "Roboto",sans-serif;
+    font-weight: 700;
+    letter-spacing: 0rem;
+    text-transform: uppercase;
+    border: 1px solid;
+    padding: 0.75rem 0.95rem;
+    margin: 0 0 11px;
+}
+
+header nav ul li a {
+    color: rgb(68,68,68);
+    text-decoration: none;
+    font-size: 14px;
 }
 
 /* ----------------------------------------------------------Forms */
