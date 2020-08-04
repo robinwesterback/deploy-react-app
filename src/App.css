@@ -52,6 +52,15 @@ h3 {
   color: #333333;
 }
 
+.item-name::after {
+  content: "";
+  display: block;
+  margin-top: -0.2rem;
+  height: 2px;
+  width: 20rem;
+  background: #e86b3e;
+}
+
 input.has-error {
   border: solid 1px #e86b3e;
 }
@@ -104,7 +113,7 @@ header nav ul li {
 header nav ul li a {
     color: rgb(68,68,68);
     text-decoration: none;
-    font-size: 14px;
+    font-size: 1rem;
 }
 
 /* ----------------------------------------------------------Forms */
@@ -223,6 +232,8 @@ footer > nav > a {
 
 /* ----------------------------------------------------------Media Queries */
 
+/* ----------------------------------------------------------Max-width */
+
 /* ----------------------------------------------------------Max-width 300px */
 
 @media (max-width: 300px) {
@@ -234,5 +245,62 @@ footer > nav > a {
         font-size: 18px;
         width: 35px;
         height: 35px;
+    }
+}
+
+/* ----------------------------------------------------------Min-width */
+
+/* ----------------------------------------------------------Min-width 768px */
+
+@media (min-width: 768px) {
+    .orange-bold {
+        font-size: 1.5rem;
+    }
+
+    .logo img {
+        width: 400px;
+    }
+
+    header button {
+        font-size: 30px;
+        width: 60px;
+        height: 60px;
+    }
+
+    header nav ul li a {
+        font-size: 1.5rem;
+    }
+
+    .body {
+        font-size: 1.5rem;
+        padding: 15% 10% 15% 10%;
+    }
+
+    input,
+    textarea {
+        font-size: 1.5rem
+    }
+
+    button {
+        width: 9rem;
+        height: 5.5rem;
+        margin: 1rem 0px 1rem 0px;
+        font-size: 1.8rem;
+    }
+
+    footer > div > h3 {
+        font-size: 2.5rem;
+    }
+
+    footer > div > h4 {
+        font-size: 2rem;
+    }
+
+    footer > div > h6 {
+        font-size: 1.5rem;
+    }
+
+    footer > nav {
+        font-size: 2rem;
     }
 }

@@ -84,7 +84,7 @@ const ResultSection = ({title, results}) => (
 
     {results.map((item, i) => (
       <div key={i} className="result">
-        <h4>{item.name}</h4>
+        <h4 className="item-name">{item.name}</h4>
 
         <p>ROI: <span>{item.result.roi}</span></p>
         <p>Net ROI: <span>{item.result.netRoi}</span></p>
