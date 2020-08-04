@@ -106,6 +106,9 @@ export default function CampaignROICalculator({setResult}) {
           name={campaign.name}
           onChange={onCampaignFormChanged}
           onSubmit={(e) => e.preventDefault()}>
+ 
+          <h3>{"Campaign: " + campaign.name}</h3>
+
           <label htmlFor="grossProfit">
             Gross profit
 
