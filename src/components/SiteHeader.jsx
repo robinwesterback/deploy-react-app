@@ -21,21 +21,21 @@ export default function SiteHeader() {
 
           <nav>
             {isOpen && (
-              <ul onClick={toggling}>
+              <ul>
                 <li>
-                    <a href="#home">Home</a>
+                    <a href="#home" onClick={toggling}>Home</a>
                 </li>
                 <li>
-                    <a href="#business">Business</a>
+                    <a href="#business" onClick={toggling}>Business</a>
                 </li>
                 <li>
-                    <a href="#campaign">Campaign</a>
+                    <a href="#campaign" onClick={toggling}>Campaign</a>
                 </li>
                 <li>
-                    <a href="#roi">ROI</a>
+                    <a href="#roi" onClick={toggling}>ROI</a>
                 </li>
                 <li>
-                    <a href="#support">Support</a>
+                    <a href="#support" onClick={toggling}>Support</a>
                 </li>
               </ul>
             )}

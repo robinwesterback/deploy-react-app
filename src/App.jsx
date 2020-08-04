@@ -19,7 +19,10 @@ function App() {
           <section id="home">
             <h1>The ROI calculator</h1>
             <p>
-              Define your KPI:s and calculate the results of your business or marketing investment. 
+              Welcome to the ROI calculator. Add a business and/or campaign to get started. 
+              Define your KPI:s and the results will show in the ROI section. 
+              Add several businesses or campaigns to compare them. Clear the section you want to 
+              clear to get a fresh sheet. 
             </p>
           </section>
 
@@ -40,8 +43,9 @@ function App() {
           <section id="roi">
             <h2>Calculate your ROI</h2>
             <p className="orange-bold">
-                Get your results based on the KPI:s you have added by clicking the button below. 
+                Find the results of your business(es) and campaign(s) below. 
                 Just change the KPI:s or add more investments to calculate new results.
+                If you want to clear your results click the button(s) above.
             </p>
             
             <div>
@@ -62,7 +66,7 @@ function App() {
           <section id="support">
             <h2>Support</h2>
             <p className="orange-bold">
-              If you're in need of support? Do you want to feedback on any KPI:s or functionalities that you feel are missing?
+              Are you in need of support? Do you want to feedback on any KPI:s or functionalities that you feel are missing?
               Contact us via the form below! 
             </p>
             <SiteContact/>
