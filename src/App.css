@@ -145,6 +145,20 @@ button {
   color: #ffffff;
 }
 
+/* ----------------------------------------------------------Results */
+
+.result {
+    border-bottom: solid 2px #e86b3e;
+}
+
+.result p {
+    font-weight: 700;
+}
+
+span {
+    font-weight: 400;
+}
+
 /* ----------------------------------------------------------Footer */
 
 footer, footer > div {
