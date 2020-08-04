@@ -46,17 +46,18 @@ function App() {
                 Find the results of your business(es) and campaign(s) below. 
                 Just change the KPI:s or add more investments to calculate new results.
                 If you want to clear your results click the button(s) above.
+                Take a snapshot of your results to provide for people of interest.
             </p>
             
             <div className="section">
-                <div>
+                <div className="result">
                     {businessResults.length > 0 &&
                     <ResultSection
                     title="Business results"
                     results={businessResults} />}
                 </div>
 
-                <div>
+                <div className="result">
                     {campaignResults.length > 0 &&
                     <ResultSection
                     title="Campaign result"
@@ -85,11 +86,15 @@ const ResultSection = ({title, results}) => (
     <h3>{title}</h3>
 
     {results.map((item, i) => (
-      <div key={i} className="result">
+      <div key={i}>
         <h4 className="item-name">{item.name}</h4>
 
         <p>ROI: <span>{item.result.roi}</span></p>
         <p>Net ROI: <span>{item.result.netRoi}</span></p>
+        <p>ROI Rate: <span>{item.result.roiRate + "%"}</span></p>
+        <p>Net ROI Rate: <span>{item.result.netRoiRate + "%"}</span></p>
+        <p>CAC: <span>{item.result.CAC}</span></p>
+        <p>LTV : CAC ratio: <span>{item.result.LTVCAC + " : 1"}</span></p>
       </div>
     ))}
   </div>

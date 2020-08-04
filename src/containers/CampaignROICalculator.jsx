@@ -138,6 +138,26 @@ export default function CampaignROICalculator({setResult}) {
               name="marketingInvestment"
               defaultValue={campaign.kpi.marketingInvestment} />
           </label>
+
+          <label htmlFor="LTV">
+            LTV:
+
+            <input
+              type="number"
+              id="LTV"
+              name="LTV"
+              defaultValue={campaign.kpi.LTV} />
+          </label>
+
+          <label htmlFor="newCustomersAcquired">
+            New customers acquired:
+
+            <input
+              type="number"
+              id="newCustomersAcquired"
+              name="newCustomersAcquired"
+              defaultValue={campaign.kpi.newCustomersAcquired} />
+          </label>
         </form>
       ))}
 

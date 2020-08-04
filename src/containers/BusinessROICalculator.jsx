@@ -140,6 +140,26 @@ export default function BusinessROICalculator({setResult}) {
               name="marketingInvestment"
               defaultValue={business.kpi.marketingInvestment} />
           </label>
+
+          <label htmlFor="LTV">
+            LTV:
+
+            <input
+              type="number"
+              id="LTV"
+              name="LTV"
+              defaultValue={business.kpi.LTV} />
+          </label>
+
+          <label htmlFor="newCustomersAcquired">
+            New customers acquired:
+
+            <input
+              type="number"
+              id="newCustomersAcquired"
+              name="newCustomersAcquired"
+              defaultValue={business.kpi.newCustomersAcquired} />
+          </label>
         </form>
       ))}
 

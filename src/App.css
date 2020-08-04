@@ -154,7 +154,7 @@ button {
 
 /* ----------------------------------------------------------Results */
 
-.result {
+.result > div {
     border-bottom: solid 1px #a09b9b;
 }
 
@@ -325,7 +325,11 @@ footer > nav > a {
     .section {
         display: flex;
         flex-flow: row;
-        justify-content: space-evenly;
+        justify-content: space-between;
+    }
+
+    .result {
+        width: 47%;
     }
 
     #business {
