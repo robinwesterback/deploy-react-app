@@ -26,7 +26,7 @@ function App() {
             </p>
           </section>
 
-          <section>
+          <section className="section">
             <div id="business">
               <h2>Add a business</h2>
               <p className="orange-bold">Add a business by naming it to start defining your KPI:s.</p>
@@ -48,18 +48,20 @@ function App() {
                 If you want to clear your results click the button(s) above.
             </p>
             
-            <div>
-              {businessResults.length > 0 &&
-                <ResultSection
-                  title="Business results"
-                  results={businessResults} />}
-            </div>
+            <div className="section">
+                <div>
+                    {businessResults.length > 0 &&
+                    <ResultSection
+                    title="Business results"
+                    results={businessResults} />}
+                </div>
 
-            <div>
-              {campaignResults.length > 0 &&
-            <ResultSection
-              title="Campaign result"
-              results={campaignResults} />}
+                <div>
+                    {campaignResults.length > 0 &&
+                    <ResultSection
+                    title="Campaign result"
+                    results={campaignResults} />}
+                </div>
             </div>
           </section>  
 

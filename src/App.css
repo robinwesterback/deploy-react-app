@@ -47,18 +47,14 @@ h3 {
 .body {
   line-height: 1.8;
   font-family: "Open Sans", sans-serif;
-  padding: 15% 7.5% 15% 7.5%;
+  padding: 5% 7.5% 5% 7.5%;
   background-color: #fafafa;
   color: #333333;
 }
 
-.item-name::after {
-  content: "";
-  display: block;
-  margin-top: -0.2rem;
-  height: 2px;
-  width: 7.5rem;
-  background: #e86b3e;
+.item-name {
+  border-bottom: solid 1px #a09b9b;
+  color: #a09b9b;
 }
 
 input.has-error {
@@ -71,7 +67,7 @@ input.has-error {
 }
 
 #business, #campaign, #roi, #support {
-    padding-top: 2rem;
+  padding-top: 2rem;
 }
 
 /* ----------------------------------------------------------Header */
@@ -134,7 +130,7 @@ textarea {
   border: 0;
   outline: 0;
   border-bottom: 1px solid #a09b9b;
-  color: #a09b9b;
+  color: #e86b3e;
   background-color: #fafafa;
 
   padding: 0.5rem;
@@ -159,15 +155,15 @@ button {
 /* ----------------------------------------------------------Results */
 
 .result {
-    border-bottom: solid 2px #e86b3e;
+    border-bottom: solid 1px #a09b9b;
 }
 
 .result p {
-    font-weight: 700;
+    color: #a09b9b;
 }
 
 span {
-    font-weight: 400;
+    color: #e86b3e;
 }
 
 /* ----------------------------------------------------------Footer */
@@ -285,7 +281,7 @@ footer > nav > a {
 
     .body {
         font-size: 1.3rem;
-        padding: 15% 10% 15% 10%;
+        padding: 5% 10% 5% 10%;
     }
 
     input,
@@ -307,7 +303,7 @@ footer > nav > a {
     }
 
     footer > div > h3 {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 
     footer > div > div > h4 {
@@ -324,62 +320,19 @@ footer > nav > a {
 }
 
 /* ----------------------------------------------------------Min-width 1280px */
-/*
+
 @media (min-width: 1280px) {
-    .item-name::after {
-        width: 30rem;
-    } 
-
-    .orange-bold {
-        font-size: 2rem;
+    .section {
+        display: flex;
+        flex-flow: row;
+        justify-content: space-evenly;
     }
 
-    .logo img {
-        width: 600px;
+    #business {
+        padding-right: 2rem;
     }
 
-    header button {
-        font-size: 40px;
-        width: 80px;
-        height: 80px;
-    }
-
-    header nav ul li a {
-        font-size: 2rem;
-    }
-
-    .body {
-        font-size: 2rem;
-        padding: 15% 12.5% 15% 12.5%;
-    }
-
-    input,
-    textarea {
-        font-size: 2rem
-    }
-
-    button {
-        width: 12rem;
-        height: 7.25rem;
-        margin: 1.5rem 0px 1.5rem 0px;
-        font-size: 2.4rem;
-    }
-
-    footer > div > h3 {
-        font-size: 3rem;
-    }
-
-    footer > div > div > h4 {
-        font-size: 2.5rem;
-    }
-
-    footer > div > h6 {
-        font-size: 2rem;
-    }
-
-    footer > nav {
-        font-size: 2.5rem;
+    #campaign {
+        padding-left: 2rem;
     }
 }
-
-*/
