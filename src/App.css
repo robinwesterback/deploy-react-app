@@ -59,16 +59,16 @@ h3 {
 
 .input-success-message {
   display: block;
-  color: #149608;
+  color: #4edd41;
 }
 
 input.has-error {
-  border: solid 1px #e86b3e;
+  border: solid 1px #e92727;
 }
 
 .input-error-message {
   display: block;
-  color: #e86b3e;
+  color: #e92727;
 }
 
 #business, #campaign, #roi, #support {
@@ -79,7 +79,7 @@ input.has-error {
 
 header {
     background-color: #fafafa;
-    margin: 5% 7.5% 5% 7.5%;
+    padding: 5% 7.5% 5% 7.5%;
 }
 
 .logo img {
