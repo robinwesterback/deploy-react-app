@@ -1,31 +1,44 @@
 import React from "react";
+import emailjs from 'emailjs-com';
 
 export default function SiteContact() {
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('gmail', 'ROI Calculator', e.target, 'user_Txaw7fq4E3HUJKaPGauXW')
+      .then((result) => {
+        console.log(result.text);
+      }, (error) => {
+        console.log(error.text);
+      });
+  }
+
   return (
-    <form>
-      <label htmlFor="name">
+    <form onSubmit={sendEmail}>
+      <label htmlFor="user_name">
         Name:
-        <input type="text" id="name" name="name" required />
+        <input type="text" id="user_name" name="user_name" required />
       </label>
 
-      <label htmlFor="company">
+      <label htmlFor="user_company">
         Company:
-        <input type="text" id="company" name="company" />
+        <input type="text" id="user_company" name="user_company" />
       </label>
 
-      <label htmlFor="email">
+      <label htmlFor="user_email">
         E-mail:
-        <input type="email" id="email" name="email" required />
+        <input type="email" id="user_email" name="user_email" required />
       </label>
 
-      <label htmlFor="phone">
+      <label htmlFor="user_phone">
         Phone:
-        <input type="number" id="phone" name="phone" />
+        <input type="number" id="user_phone" name="user_phone" />
       </label>
 
-      <label htmlFor="message">
+      <label htmlFor="user_message">
         Message:
-        <textarea id="message" name="message" required />
+        <textarea id="user_message" name="user_message" required />
       </label>
 
       <button type="submit">Send</button>
