@@ -57,6 +57,11 @@ h3 {
   color: #a09b9b;
 }
 
+.input-success-message {
+  display: block;
+  color: #149608;
+}
+
 input.has-error {
   border: solid 1px #e86b3e;
 }

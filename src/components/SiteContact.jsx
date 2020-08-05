@@ -1,16 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import emailjs from 'emailjs-com';
 
 export default function SiteContact() {
+  const [emailValidation, setEmailValidation] = useState()  
 
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs.sendForm('gmail', 'ROI Calculator', e.target, 'user_Txaw7fq4E3HUJKaPGauXW')
       .then((result) => {
-        console.log(result.text);
+        console.log(result.text)
+        setEmailValidation(`Email Successfully Sent`);
       }, (error) => {
-        console.log(error.text);
+        console.log(error.text)
+        setEmailValidation(`Email Failed to Send`)
+        document.getElementById('email.message').className = "input-error-message";;
       });
   }
 
@@ -42,6 +46,9 @@ export default function SiteContact() {
       </label>
 
       <button type="submit">Send</button>
+    
+      <span id="email-message" className="input-success-message">{emailValidation}</span>
+  
     </form>
   );
 }
