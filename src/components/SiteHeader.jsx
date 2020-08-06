@@ -23,19 +23,19 @@ export default function SiteHeader() {
         {isOpen && (
           <ul>
             <li>
-                <a href="#home" onClick={toggling}>Home</a>
+              <a href="#home" onClick={toggling}>Home</a>
             </li>
             <li>
-                <a href="#business" onClick={toggling}>Business</a>
+              <a href="#business" onClick={toggling}>Business</a>
             </li>
             <li>
-                <a href="#campaign" onClick={toggling}>Campaign</a>
+              <a href="#campaign" onClick={toggling}>Campaign</a>
             </li>
             <li>
-                <a href="#roi" onClick={toggling}>ROI</a>
+              <a href="#roi" onClick={toggling}>ROI</a>
             </li>
             <li>
-                <a href="#support" onClick={toggling}>Support</a>
+              <a href="#support" onClick={toggling}>Support</a>
             </li>
           </ul>
         )}
