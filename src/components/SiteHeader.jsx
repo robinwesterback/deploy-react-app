@@ -13,7 +13,7 @@ export default function SiteHeader() {
 
   return (
     <header className="header">
-      <a className="logo">
+      <a href="#home" className="logo">
         <img src={logo} alt="Logo"></img>
       </a>
 
