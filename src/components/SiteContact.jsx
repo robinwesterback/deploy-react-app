@@ -3,7 +3,8 @@ import emailjs from 'emailjs-com';
 
 export default function SiteContact() {
   const [emailValidation, setEmailValidation] = useState()  
-
+  
+  // sendEmail Allows the user to send Email with emailjs 
   const sendEmail = (e) => {
     e.preventDefault();
 
