@@ -11,9 +11,9 @@ export default function BusinessROICalculator({setResult}) {
 
   // clear() clears and resets addNewForm, Result and Businesses.
   const clear = () => {
-      addNewForm.current.reset()
-      setResult([])
-      setBusinesses([])
+    addNewForm.current.reset()
+    setResult([])
+    setBusinesses([])
   }
 
   // calculateResult(items) runs calculateBusiness function based on the value of the items in business.

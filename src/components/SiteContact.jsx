@@ -15,7 +15,8 @@ export default function SiteContact() {
         console.log(error.text)
         setEmailValidation(`Email Failed to Send`)
         document.getElementById('email.message').className = "input-error-message";;
-      });
+      }
+    );
   }
 
   return (

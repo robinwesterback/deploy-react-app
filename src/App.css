@@ -9,27 +9,27 @@
 }
 
 .background-black {
-    background-color: #161616;
+  background-color: #161616;
 }
 
 .facebook-blue:hover {
-    background-color: #3b5998;
+  background-color: #3b5998;
 }
 
 .linkedin-blue:hover {
-    background-color: #1a81ad;
+  background-color: #1a81ad;
 }
 
 .youtube-red:hover {
-    background-color: #cc181e;
+  background-color: #cc181e;
 }
 
 .vimeo-blue:hover {
-    background-color: #44bbff;
+  background-color: #44bbff;
 }
 
 .instagram-blue:hover {
-    background-color: #3f729b;
+  background-color: #3f729b;
 }
 
 /* ----------------------------------------------------------Special paddings/margins/text */
@@ -78,45 +78,45 @@ input.has-error {
 /* ----------------------------------------------------------Header */
 
 header {
-    background-color: #fafafa;
-    padding: 5% 7.5% 5% 7.5%;
+  background-color: #fafafa;
+  padding: 5% 7.5% 5% 7.5%;
 }
 
 .logo img {
-    width: 225px;
+  width: 225px;
 }
 
 header button {
-    font-size: 22px;
-    float: right;
-    width: 40px;
-    height: 40px;
-    margin: 0px 0px 0px 0px;
+  font-size: 22px;
+  float: right;
+  width: 40px;
+  height: 40px;
+  margin: 0px 0px 0px 0px;
 }
 
 header nav ul {
-    list-style: none;
-    padding-inline-start: 0px;
-    line-height: 1.8;
+  list-style: none;
+  padding-inline-start: 0px;
+  line-height: 1.8;
 }
 
 header nav ul li {
-    color: rgb(68,68,68);
-    line-height: 1.5;
-    font-family: "Roboto",sans-serif;
-    font-weight: 700;
-    letter-spacing: 0rem;
-    text-transform: uppercase;
-    border: 1px solid;
-    padding: 0.75rem 0.95rem;
-    margin: 0 0 11px;
+  color: rgb(68,68,68);
+  line-height: 1.5;
+  font-family: "Roboto",sans-serif;
+  font-weight: 700;
+  letter-spacing: 0rem;
+  text-transform: uppercase;
+  border: 1px solid;
+  padding: 0.75rem 0.95rem;
+  margin: 0 0 11px;
 }
 
 header nav ul li a {
-    display: block;
-    color: rgb(68,68,68);
-    text-decoration: none;
-    font-size: 1rem;
+  display: block;
+  color: rgb(68,68,68);
+  text-decoration: none;
+  font-size: 1rem;
 }
 
 /* ----------------------------------------------------------Forms */
@@ -128,7 +128,7 @@ form {
 }
 
 label {
-    color: #7a7a7a;
+  color: #7a7a7a;
 }
 
 input,
@@ -161,15 +161,15 @@ button {
 /* ----------------------------------------------------------Results */
 
 .result > div {
-    border-bottom: solid 1px #a09b9b;
+  border-bottom: solid 1px #a09b9b;
 }
 
 .result p {
-    color: #a09b9b;
+  color: #a09b9b;
 }
 
 span {
-    color: #e86b3e;
+  color: #e86b3e;
 }
 
 /* ----------------------------------------------------------Footer */
@@ -185,50 +185,50 @@ footer, footer > div {
 }
 
 footer > div.background-black {
-    padding: 1.5rem 0px 1.5rem 0px;
+  padding: 1.5rem 0px 1.5rem 0px;
 }
 
 footer > div.background-black > div {
-    padding: 1.5rem 0px 1.5rem 0px;
+  padding: 1.5rem 0px 1.5rem 0px;
 }
 
 footer > div > h3,
 footer > div > div > h4,
 footer > div > h6,
 footer > div > h6 > a {
-    font-weight: 900;
+  font-weight: 900;
 }
 
 footer > div > h3 {
-    display: block;
-    font-size: 2rem;
+  display: block;
+  font-size: 2rem;
 }
 
 footer > div > div > h4 {
-    margin-block-end: 0rem;
-    margin-block-start: 0rem;
-    font-size: 1.5rem;
+  margin-block-end: 0rem;
+  margin-block-start: 0rem;
+  font-size: 1.5rem;
 }
 
 footer > div > h6 {
-    font-size: 1rem;
-    text-transform: uppercase;
+  font-size: 1rem;
+  text-transform: uppercase;
 }
 
 footer > div > h6 > a {
-    color: #333333;
+  color: #333333;
 }
 
 footer > div > h6 > a:hover {
-    color: #e86b3e;
+  color: #e86b3e;
 }
 
 footer > nav {
-    display: flex;
-    justify-content: center;
-    font-size: 1.5rem;
-    background-color: #222222;
-    padding: 3rem 0 3rem 0;
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  background-color: #222222;
+  padding: 3rem 0 3rem 0;
 }
 
 footer > nav > a {
@@ -247,29 +247,29 @@ footer > nav > a {
 /* ----------------------------------------------------------Max-width 340px */
 
 @media (max-width: 340px) {
-    .logo img {
-        width: 175px;
-    }
+  .logo img {
+    width: 175px;
+  }
 
-    header button {
-        font-size: 18px;
-        width: 35px;
-        height: 35px;
-    }
+  header button {
+    font-size: 18px;
+    width: 35px;
+    height: 35px;
+  }
 
-    footer > div > div > h4 {
-        margin-block-end: 0rem;
-        margin-block-start: 0rem;
-        font-size: 1.2rem;
-    }
+  footer > div > div > h4 {
+    margin-block-end: 0rem;
+    margin-block-start: 0rem;
+    font-size: 1.2rem;
+  }
 
-    footer > div > h6 {
-        font-size: 0.8rem;
-    }
+  footer > div > h6 {
+    font-size: 0.8rem;
+  }
 
-    footer > nav > a {
-        margin: 0px 0.1rem 0px 0.1rem;
-    }
+  footer > nav > a {
+    margin: 0px 0.1rem 0px 0.1rem;
+  }
 }
 
 /* ----------------------------------------------------------Min-width */
@@ -277,86 +277,86 @@ footer > nav > a {
 /* ----------------------------------------------------------Min-width 768px */
 
 @media (min-width: 768px) {
-    .item-name::after {
-        width: 15rem;
-    }
+  .item-name::after {
+    width: 15rem;
+  }
 
-    .orange-bold {
-        font-size: 1.3rem;
-    }
+  .orange-bold {
+    font-size: 1.3rem;
+  }
 
-    .logo img {
-        width: 400px;
-    }
+  .logo img {
+    width: 400px;
+  }
 
-    header button {
-        font-size: 30px;
-        width: 60px;
-        height: 60px;
-    }
+  header button {
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+  }
 
-    header nav ul li a {
-        font-size: 1.3rem;
-    }
+  header nav ul li a {
+    font-size: 1.3rem;
+  }
 
-    .body {
-        font-size: 1.3rem;
-        padding: 5% 10% 5% 10%;
-    }
+  .body {
+    font-size: 1.3rem;
+    padding: 5% 10% 5% 10%;
+  }
 
-    input,
-    textarea {
-        font-size: 1.3rem
-    }
+  input,
+  textarea {
+    font-size: 1.3rem
+  }
 
-    button {
-        width: 8rem;
-        height: 4rem;
-        margin: 1rem 0px 1rem 0px;
-        font-size: 1.8rem;
-    }
+  button {
+    width: 8rem;
+    height: 4rem;
+    margin: 1rem 0px 1rem 0px;
+    font-size: 1.8rem;
+  }
 
-    footer > div.background-black {
-        display: flex;
-        flex-flow: row;
-        justify-content: space-around;
-    }
+  footer > div.background-black {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+  }
 
-    footer > div > h3 {
-        font-size: 2.5rem;
-    }
+  footer > div > h3 {
+    font-size: 2.5rem;
+  }
 
-    footer > div > div > h4 {
-        font-size: 1.8rem;
-    }
+  footer > div > div > h4 {
+    font-size: 1.8rem;
+  }
 
-    footer > div > h6 {
-        font-size: 1.3rem;
-    }
+  footer > div > h6 {
+    font-size: 1.3rem;
+  }
 
-    footer > nav {
-        font-size: 1.8rem;
-    }
+  footer > nav {
+    font-size: 1.8rem;
+  }
 }
 
 /* ----------------------------------------------------------Min-width 1280px */
 
 @media (min-width: 1280px) {
-    .section {
-        display: flex;
-        flex-flow: row;
-        justify-content: space-between;
-    }
+  .section {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+  }
 
-    .result {
-        width: 47%;
-    }
+  .result {
+    width: 47%;
+  }
 
-    #business {
-        padding-right: 2rem;
-    }
+  #business {
+    padding-right: 2rem;
+  }
 
-    #campaign {
-        padding-left: 2rem;
-    }
+  #campaign {
+    padding-left: 2rem;
+  }
 }
