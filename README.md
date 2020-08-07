@@ -125,11 +125,11 @@ I provide several links on the website for navigation in the header and footer.
 
 ### Features Left to Implement
 
-#### Project Modals
-I want to add modals for each project with a project title, description with links and an image/video.
+#### More options to the calculator
+A wider range of KPIs and results. The possibility to compare results to eachother
 
-#### Separate pages
-When my portfolio with projects is big enough I want to create separate about- and projects pages to fill the website with more relevant content.
+#### Recourses and content
+Provide more information and resources about ROI and KPIs. Also add images, videos and make the website more visually appealing where appropriate.
 
 #### 404 error
 I want to customize the 404 error webpage
@@ -137,21 +137,13 @@ I want to customize the 404 error webpage
 #### Livechat
 I might want to add a live-chat or integrate one from Pipedrive to provide additional ways of communicating with me.
 
-#### Form validation
-I need to add a database to record emails and form validation for the form to function properly.
-
-#### Smooth scrolling
-I want to add smooth scrolling and arrows to scroll to the next section for a better user experience.
-
-#### Feature showcasing skills
-I’m thinking of adding a feature showcasing my skills. For example an icon of HTML or CSS that drops down some interesting information about the skill/me when clicking on it.
-It’s a nice and interactive way to provide the information the user is interested in.
-
 #### Your thoughts
 Are there any features that you would like me to implement to improve the website? Please get in touch and share your thoughts.
 
 ## Technologies Used
-I used HTML, CSS and Javascript in this project. I tried to stay away from frameworks like bootstrap and JQuery for page speed optimization.
+I used HTML, CSS and Javascript in this project. I decided to use the React framework and created a react app. 
+As I'm reaching the end of my first version of the project I'm happy that I chose to build a single page application in React.
+It will be easy to implement future releases and continue to develop the functions the app provides.
 
 ### HTML
 This project uses semantic [HTML](https://html.com/) to improve SEO and user friendliness. The HTML is separated using comments.
@@ -161,7 +153,10 @@ The project uses responsive design to improve the user experience and availabili
 I have a [reset stylesheet](https://cssreset.com/scripts/eric-meyer-reset-css/) to reduce browser inconsistencies in things like default line heights, margins and font sizes of headings, and so on. 
 
 ### JS
-I used [JavaScript](https://www.javascript.com/) to get my full overlay feature to work. I’m looking forward to implement more JavaScript in future releases of the project.
+I used [JavaScript](https://www.javascript.com/) for all the functions and interactivity on the website. 
+
+### React
+I used [React](https://www.javascript.com/) as a framework for all the functions and states.
 
 ## Testing
 I have tested the website and looked for flaws in the design and errors in the functionality on several browsers on desktop, laptop and iPhone 7.
