@@ -1,53 +1,90 @@
-# Robin Westerback Full Stack Web Developer
-User Centric Frontend Development Milestone Project @ Code Institute
+# Megapixel Groups ROI Calculator
+Interactive Frontend Development Milestone Project @ Code Institute
 
-This project will function as my portfolio website to show potential clients/employers. It provides information about me and what I can offer. 
-The website showcases 4 projects, provides social links (GitHub and LinkedIn), my resumé and contact information. You can find the website [here](https://robinwesterback.github.io/User-Centric-Frontend-Development-Milestone-Project/).
+This project is an investment calculator for calculating ROI (Return on Investment). 
+It allows you to add businesses and campaigns, define your desired KPIs (Key Performance Indicators) and reap the results. 
+It has a button the user can click to clear/reset the inputs that has been made. 
+The website provides a contact form, social links (LinkedIn, Facebook, YouTube, Vimeo and Instagram), contact information and a link to Megapixels marketing services.
+You can find the website [here](https://robinwesterback.github.io/deploy-react-app/).
 
 ## UX
-The website is designed to be user friendly, simple and clean with the purpose to present all information in a visually appealing manner on all devices.
-It is made for potential clients/employers who are looking for talent like me. They want to know  who I am, what I can offer, what I have done and how to contact me.
-To provide that information this website is a simple and straightforward one-pager with 4 major sections - Home, About, Projects and Contact.
-The footer at the end of the page contains links for social links and a resume. 
+The website is designed to represent Megapixel, following their brand and graphic guidelines.
+It is designed to be user friendly, simple and clean with the purpose to present all information in a visually appealing manner on all devices.
+It is made for marketers/investors who wants a quick and easy way to calculate the ROI of their investments as well as getting related metrics valuable to interested parties. 
+They want a hasslefree experience using the tool. If problem should arise it should be easy to get in touch with the owner of the site.
+To provide that information this website is a simple and straightforward single-page-application with 5 major sections - Home, Business, Campaign, ROI and Support.
+The support section provides a contact form, social links (LinkedIn, Facebook, YouTube, Vimeo and Instagram), contact information and a link to Megapixels marketing services.
 
 ### User Stories
-The user stories are showing pictures from the mockups and not the actual project. 
-You can access the actual project [here](https://robinwesterback.github.io/User-Centric-Frontend-Development-Milestone-Project/) to try the user stories yourself.
-As a potential client/employer, I want to know who you are and what you can offer to get an idea if you have what I seek. 
+The user stories are showing pictures from an earlier stage of the project and not the deployed version. 
+You can access the actual project [here](https://robinwesterback.github.io/deploy-react-app/) to try the user stories yourself.
+
+As a user, I want to click on a navigation link, so that I can get navigated towards the desired link location. 
 
 
-![alt text](mockups/home.png "Home Section") ![alt text](mockups/about.png "About Section")
+![alt text](mockups/home.png "Click navigation link") ![alt text](mockups/about.png "Navigation link location")
 
-Then I want to know what you have done in the past to back that up and qualify that I should contact you.
+As a user, I want to add a business, so that I can fill in my KPIs.
 
+![alt text](mockups/contact.png "Add Business") ![alt text](mockups/menu.png "Business KPIs")
 
-![alt text](mockups/projects-page1.png "Projects Section 1") ![alt text](mockups/projects-page2.png "Projects Section 2")
+As a user, I want to know why I can't add multiple businesses, so that I can adress the issue. 
 
-I want to be able to contact you and send a request to get in touch. I want to be able to find social links, a resume and navigate easily on the website in case I want to go back to another section. 
+![alt text](mockups/projects-page1.png "Input error message") ![alt text](mockups/projects-page2.png "Add multiple businesses")
 
+As a user, I want to know to clear the business section, so that I can work from a clean business sheet. 
 
-![alt text](mockups/contact.png "Contact Section") ![alt text](mockups/menu.png "Full Screen Overlay Menu")
+![alt text](mockups/projects-page1.png "Clear business section") ![alt text](mockups/projects-page2.png "Clean business sheet")
+
+As a user, I want to add a campaign, so that I can fill in my KPIs.
+
+![alt text](mockups/contact.png "Add Campaign") ![alt text](mockups/menu.png "Campaign KPIs")
+
+As a user, I want to know why I can't add multiple campaigns, so that I can adress the issue. 
+
+![alt text](mockups/projects-page1.png "Input error message") ![alt text](mockups/projects-page2.png "Add multiple campaigns")
+
+As a user, I want to know to clear the campaign section, so that I can work from a clean campaign sheet. 
+
+![alt text](mockups/projects-page1.png "Clear campaign section") ![alt text](mockups/projects-page2.png "Clean campaign sheet")
+
+As a user, I want to know to fill in my KPIs, so that I can get the results. 
+
+![alt text](mockups/projects-page1.png "KPIs") ![alt text](mockups/projects-page2.png "Results")
+
+As a user, I want to be able to contact the support, to get help answering the question I have.
+
+![alt text](mockups/projects-page1.png "Send email") ![alt text](mockups/projects-page2.png "Email sent")
+
+As a user, I want to get information about the owner of the site, so that I can contact the owner if I want to.
+
+![alt text](mockups/projects-page1.png "Footer")
 
 ### Strategy
-The goal with the website is to provide quick and accessable information while still being visaully appealing. 
+The goal with the website is to provide quick and easy access to the functions, tools and information it provides.
+The design should fit the purpose and follow Megapixels brand and graphic guidelines. 
 The foundation of the website should be good with room for improvement for future updates/releases.
 
 ### Scope
-I want to give give the users the information they are looking for when searching for talent. 
-At this stage the user can access all information they need while there is still improvements to be made. 
-Further on you can improve the website and the access to information by e.g. implementing modals in the projects section.
+The users should be able to use a fully functioning application for calculating ROI including support if needed.
+At this stage the user will experience a running application with the possibility to contact the owner with feedback for future releases.
+Future releases may introduce:
+ A wider range of KPIs and results
+ The possibility to compare results to eachother
+ Provide more information and resources about ROI and KPIs
 
 ### Structure
-The website has a natural structure with the "home-section" giving a message, in this case the message is that you want someone that can solve problems. 
-The next section is the "about-section", describing what problems I can solve while giving a hint of what they can expect. 
-From there you dive deeper and get to the "projects-section" showing of some projects I have worked on (placeholders at the moment, modals in the future).
-Last but not least, you get to the "contact-section" where you can access social-links, a resume and contact-info.
+The website has a natural structure with the "home-section" giving a message, in this case welcoming the user to the website and describes how to use it. 
+The next section is the "business-section", where you can add a businesses, define your KPIs and reap the results. 
+The next section is the "campaign-section", where you can add a campaign, define your KPIs and reap the results.
+At the end of the website is the "support-section" with a contact form and a footer where you can access social-links, contact-info and a link to Megapixels marketing services.
 
 ### Skeleton
 In this [link](https://github.com/robinwesterback/User-Centric-Frontend-Development-Milestone-Project/tree/master/wireframes) you can find the wireframes for each section that serves as the skeleton for the project.
 
 ### Surface
-The "black n grey" design is clean and works well to make images/videos and CTAs pop a bit. The "styling" spans give a nice touch rather than having borders. I'm also a big fan of the font-families used.
+In this [link](https://github.com/robinwesterback/User-Centric-Frontend-Development-Milestone-Project/tree/master/wireframes) you can find Megapixels website whos brand and graphic guidelines I have followed.
+The white background works well with the logo, buttons and font colors. The design is clean and the orange color presents the information in a pleasant way.
 
 ## Features
 The website contains several features with a few left to be implemented.
