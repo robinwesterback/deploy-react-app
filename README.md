@@ -91,21 +91,37 @@ The website contains several features with a few left to be implemented.
 
 ### Existing Features
 
-#### Full screen Overlay Navigation from w3schools on mobile and iPad
-I used the information from [w3schools](https://www.w3schools.com/howto/howto_js_fullscreen_overlay.asp "How To JS Fullscreen Overlay") to create a full screen overlay navigation with a blur. 
-I use the background-filter: blur element which doesn’t get validated by the jigsaw CSS validator. 
-I have made the background opacity 0.9 to make the background less visible on devices that don’t support the blur-filter. 
-The color of the logo also changes when you open/close the overlay navigation.
+#### Hamburger drop down menu
+A function that uses Reacts useState to change the state of the element onClick.
+Find more about Reacts useState here [w3schools](https://www.w3schools.com/howto/howto_js_fullscreen_overlay.asp "How To JS Fullscreen Overlay").
+The design is made to follow Megapixels brand and graphic guidelines.
 
-#### Styling span while hovering over the header menu on desktop
-I’ve added a styling span while hovering over the header menu on desktop so the border bottom wouldn’t have full width.
+#### ROI Calculator
+An ROI calculator that is used for businesses and campaigns in this project. The calculator contains several variables, runs functions, passes and stores information.
+You can add a new business or campaign, enter the KPIs that you want and get the results in an instant. 
 
-#### Contact form with background image from w3schools
-I used the information from [w3schools](https://www.w3schools.com/howto/howto_css_form_on_image.asp "How To CSS Form on Image") to create a form with a background image. 
-I still have to implement form validation.
+##### Get business/campaign
+Gets the name of all the items in every business/campaign.
+
+##### Clear
+Empties the values of the form, result and business/campaign.
+
+##### Calculate result
+Calculates the result of the inserted KPIs and updates the result.
+
+##### Add business/campaign
+Adds a business/campaign that have pre-defined KPIs that can be filled in with desired KPIs.
+
+##### On form changed
+When the form is changed the results are updated automatically.
+
+#### Send email
+I use emailjs to let the user send emails to the site owner. 
+I used the information from [w3schools](https://www.w3schools.com/howto/howto_css_form_on_image.asp "How To CSS Form on Image") to make it work.  
+The user get notified wether it was a success or of it failed.
 
 #### Links
-I provide several links on the website for navigation and resources (social links and resume) in the header and footer.
+I provide several links on the website for navigation in the header and footer.
 
 ### Features Left to Implement
 
