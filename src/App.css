@@ -342,8 +342,8 @@ footer > nav > a {
 /* ----------------------------------------------------------Min-width 1170px */
 
 @media (min-width: 1170px) {
-  .body {
-    padding-top: 10%
+  #home, #business, #campaign, #roi, #support {
+    padding-top: 6rem;
   }
 
   .section {
