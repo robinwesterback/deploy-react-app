@@ -91,6 +91,7 @@ export default function BusinessROICalculator({setResult}) {
             id="businessName"
             name="businessName"
             className={addBusinessError ? 'has-error' : ''}
+            maxLength="25"
             required
             onChange={() => setAddBusinessError(null)} />
         </label>

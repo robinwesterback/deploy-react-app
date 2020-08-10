@@ -15,8 +15,8 @@ function App() {
     <div>
       <SiteHeader logoName="ROI Calculator" />
 
-      <main className="body" id="home">
-        <section>
+      <main className="body">
+        <section id="home">
           <h1>The ROI calculator</h1>
           <p>
             Welcome to the ROI calculator. Add a business and/or campaign to get started. 
@@ -89,12 +89,12 @@ const ResultSection = ({title, results}) => (
       <div key={i}>
         <h4 className="item-name">{item.name}</h4>
 
-        <p>ROI: <span>{item.result.roi}</span></p>
-        <p>Net ROI: <span>{item.result.netRoi}</span></p>
-        <p>ROI Rate: <span>{item.result.roiRate + "%"}</span></p>
-        <p>Net ROI Rate: <span>{item.result.netRoiRate + "%"}</span></p>
-        <p>CAC: <span>{item.result.CAC}</span></p>
-        <p>LTV : CAC ratio: <span>{item.result.LTVCAC + " : 1"}</span></p>
+        <p>ROI: <span>{item.result.roi || 0}</span></p>
+        <p>Net ROI: <span>{item.result.netRoi || 0}</span></p>
+        <p>ROI Rate: <span>{item.result.roiRate || 0}%</span></p>
+        <p>Net ROI Rate: <span>{item.result.netRoiRate || 0}%</span></p>
+        <p>CAC: <span>{item.result.CAC || 0}</span></p>
+        <p>LTV : CAC ratio: <span>{item.result.LTVCAC || 0}:1</span></p>
       </div>
     ))}
   </div>

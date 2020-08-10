@@ -89,6 +89,7 @@ export default function CampaignROICalculator({setResult}) {
             id="campaignName"
             name="campaignName"
             className={addCampaignError ? 'has-error' : ''}
+            maxLength="25"
             required
             onChange={() => setAddCampaignError(null)} />
         </label>

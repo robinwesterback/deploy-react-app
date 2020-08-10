@@ -130,6 +130,7 @@ A wider range of KPIs and results. The possibility to compare results to eachoth
 
 #### Recourses and content
 Provide more information and resources about ROI and KPIs. Also add images, videos and make the website more visually appealing where appropriate.
+Add questionmarks that shows helpful information on hover.
 
 #### 404 error
 I want to customize the 404 error webpage
