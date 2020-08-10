@@ -1,26 +1,25 @@
 # Megapixel Groups ROI Calculator
 Interactive Frontend Development Milestone Project @ Code Institute
 
-This project is an investment calculator for calculating ROI (Return on Investment). 
+This project is an investment calculator for calculating ROI (Return on Investment) built as a single page React application. 
 It allows you to add businesses and campaigns, define your desired KPIs (Key Performance Indicators) and reap the results. 
 It has a button the user can click to clear/reset the inputs that has been made. 
-The website provides a contact form, social links (LinkedIn, Facebook, YouTube, Vimeo and Instagram), contact information and a link to Megapixels marketing services.
-You can find the website [here](https://robinwesterback.github.io/deploy-react-app/).
+The application provides a contact form, social links (LinkedIn, Facebook, YouTube, Vimeo and Instagram), contact information and a link to Megapixels marketing services.
+You can find the application [here](https://robinwesterback.github.io/deploy-react-app/).
 
 ## UX
-The website is designed to represent Megapixel, following their brand and graphic guidelines.
+The application is designed to represent Megapixel, following their brand and graphic guidelines.
 It is designed to be user friendly, simple and clean with the purpose to present all information in a visually appealing manner on all devices.
 It is made for marketers/investors who wants a quick and easy way to calculate the ROI of their investments as well as getting related metrics valuable to interested parties. 
-They want a hasslefree experience using the tool. If problem should arise it should be easy to get in touch with the owner of the site.
-To provide that information this website is a simple and straightforward single-page-application with 5 major sections - Home, Business, Campaign, ROI and Support.
+They want a hasslefree experience using the tool. If problem should arise it should be easy to get in touch with the owner of the application.
+To provide that information this application is a simple and straightforward single-page-application with 5 major sections - Home, Business, Campaign, ROI and Support.
 The support section provides a contact form, social links (LinkedIn, Facebook, YouTube, Vimeo and Instagram), contact information and a link to Megapixels marketing services.
 
 ### User Stories
 The user stories are showing pictures from an earlier stage of the project and not the deployed version. 
-You can access the actual project [here](https://robinwesterback.github.io/deploy-react-app/) to try the user stories yourself.
+You can access the deployed project [here](https://robinwesterback.github.io/deploy-react-app/) to try the user stories yourself.
 
 As a user, I want to click on a navigation link, so that I can get navigated towards the desired link location. 
-
 
 ![alt text](mockups/home.png "Click navigation link") ![alt text](mockups/about.png "Navigation link location")
 
@@ -61,9 +60,9 @@ As a user, I want to get information about the owner of the site, so that I can 
 ![alt text](mockups/projects-page1.png "Footer")
 
 ### Strategy
-The goal with the website is to provide quick and easy access to the functions, tools and information it provides.
+The goal with the application is to provide quick and easy access to the functions, tools and recourses it provides.
 The design should fit the purpose and follow Megapixels brand and graphic guidelines. 
-The foundation of the website should be good with room for improvement for future updates/releases.
+The foundation of the application should be solid with room for improvement for future updates/releases.
 
 ### Scope
 The users should be able to use a fully functioning application for calculating ROI including support if needed.
@@ -74,31 +73,37 @@ Future releases may introduce:
  Provide more information and resources about ROI and KPIs
 
 ### Structure
-The website has a natural structure with the "home-section" giving a message, in this case welcoming the user to the website and describes how to use it. 
-The next section is the "business-section", where you can add a businesses, define your KPIs and reap the results. 
-The next section is the "campaign-section", where you can add a campaign, define your KPIs and reap the results.
-At the end of the website is the "support-section" with a contact form and a footer where you can access social-links, contact-info and a link to Megapixels marketing services.
+The application has a natural structure with the "home-section" giving a message, in this case welcoming the user to the application and describes how to use it. 
+The next section is the "business-section", where you can add a businesses and define your KPIs.
+The next section is the "campaign-section", where you can add a campaign and define your KPIs.
+The result section follows where you can reap the results of your investments.
+At the end of the application is the "support-section" with a contact form and a footer where you can access social-links, contact-info and a link to Megapixels marketing services.
 
 ### Skeleton
 In this [link](https://github.com/robinwesterback/User-Centric-Frontend-Development-Milestone-Project/tree/master/wireframes) you can find the wireframes for each section that serves as the skeleton for the project.
 
 ### Surface
-In this [link](https://github.com/robinwesterback/User-Centric-Frontend-Development-Milestone-Project/tree/master/wireframes) you can find Megapixels website whos brand and graphic guidelines I have followed.
-The white background works well with the logo, buttons and font colors. The design is clean and the orange color presents the information in a pleasant way.
+In this [link](https://github.com/robinwesterback/User-Centric-Frontend-Development-Milestone-Project/tree/master/wireframes) you can find Megapixels website. 
+This application follows Megapixels brand and graphic guidelines.
+The white background works well with the logo, buttons and font colors. 
+The design is clean and the orange color presents the information in a pleasant way.
 
 ## Features
-The website contains several features with a few left to be implemented.
+The application contains several features with a few left to be implemented.
 
 ### Existing Features
 
 #### Hamburger drop down menu
 A function that uses Reacts useState to change the state of the element onClick.
-Find more about Reacts useState here [w3schools](https://www.w3schools.com/howto/howto_js_fullscreen_overlay.asp "How To JS Fullscreen Overlay").
+Find out more about Reacts useState [here](https://reactjs.org/docs/hooks-state.html "Using the State Hook").
 The design is made to follow Megapixels brand and graphic guidelines.
 
 #### ROI Calculator
-An ROI calculator that is used for businesses and campaigns in this project. The calculator contains several variables, runs functions, passes and stores information.
+An ROI calculator that is used for businesses and campaigns in this project. 
+The calculator contains several variables, runs functions, passes and stores information.
 You can add a new business or campaign, enter the KPIs that you want and get the results in an instant. 
+The calculator is built using hooks. 
+Find out more about hooks [here](https://reactjs.org/docs/hooks-reference.html "Hooks API Reference").
 
 ##### Get business/campaign
 Gets the name of all the items in every business/campaign.
@@ -117,47 +122,55 @@ When the form is changed the results are updated automatically.
 
 #### Send email
 I use emailjs to let the user send emails to the site owner. 
-I used the information from [w3schools](https://www.w3schools.com/howto/howto_css_form_on_image.asp "How To CSS Form on Image") to make it work.  
+I used the information from [emailjs](https://www.emailjs.com/docs/examples/reactjs/ "EmailJS + React") to make it work.  
 The user get notified wether it was a success or of it failed.
 
 #### Links
-I provide several links on the website for navigation in the header and footer.
+I provide several links on the application for navigation in the header and footer.
 
 ### Features Left to Implement
 
 #### More options to the calculator
-A wider range of KPIs and results. The possibility to compare results to eachother
+A wider range of KPIs and results. The possibility to compare results to eachother and show visually appealing results.
 
 #### Recourses and content
-Provide more information and resources about ROI and KPIs. Also add images, videos and make the website more visually appealing where appropriate.
+Provide more information and resources about ROI and KPIs. Also add images, videos and make the application more visually appealing where appropriate.
 Add questionmarks that shows helpful information on hover.
 
 #### 404 error
-I want to customize the 404 error webpage
+I want to customize the 404 error webpage.
 
 #### Livechat
-I might want to add a live-chat or integrate one from Pipedrive to provide additional ways of communicating with me.
+I might add a live-chat or integrate one from Pipedrive to provide additional ways of communicating with me.
 
 #### Your thoughts
-Are there any features that you would like me to implement to improve the website? Please get in touch and share your thoughts.
+Are there any features that you would like me to implement to improve the application? Please get in touch and share your thoughts.
 
 ## Technologies Used
 I used HTML, CSS and Javascript in this project. I decided to use the React framework and created a react app. 
-As I'm reaching the end of my first version of the project I'm happy that I chose to build a single page application in React.
+As I'm done with the first version of this project I'm happy that I chose to build a single page application in React.
 It will be easy to implement future releases and continue to develop the functions the app provides.
 
 ### HTML
-This project uses semantic [HTML](https://html.com/) to improve SEO and user friendliness. The HTML is separated using comments.
+This project uses semantic [HTML](https://html.com/) to improve SEO and user friendliness. 
+The HTML is rendered from jsx-files in this React app.
 
 ### CSS
-The project uses responsive design to improve the user experience and availability on all devices. The [CSS](https://www.w3.org/Style/CSS/Overview.en.html) is separated using comments. 
-I have a [reset stylesheet](https://cssreset.com/scripts/eric-meyer-reset-css/) to reduce browser inconsistencies in things like default line heights, margins and font sizes of headings, and so on. 
+The project uses responsive design to improve the user experience and availability on all devices. 
+The [CSS](https://www.w3.org/Style/CSS/Overview.en.html) is separated using comments. 
+I have a [reset stylesheet](https://cssreset.com/scripts/eric-meyer-reset-css/) to reduce browser 
+inconsistencies in things like default line heights, margins and font sizes of headings, and so on. 
 
 ### JS
-I used [JavaScript](https://www.javascript.com/) for all the functions and interactivity on the website. 
+I used [JavaScript](https://www.javascript.com/) for all the functions and interactivity on the application. 
+Comments are provided to give an explanation of the functions.
 
 ### React
-I used [React](https://www.javascript.com/) as a framework for all the functions and states.
+I used [React](https://reactjs.org/) as a framework for all the functions and states. 
+React is a JavaScript library that builds user interfaces for single-page applications by dividing UI into composable components.
+Businesses that use ReactJS are assured of better performance compared to those that use other frameworks. 
+Because ReactJS helps to prevent updating of DOM, it means that the apps will be faster and deliver better UX. 
+ReactJS was designed to help improve the total rendered pages from the website server.
 
 ## Testing
 I have tested the website and looked for flaws in the design and errors in the functionality on several browsers on desktop, laptop and iPhone 7.
