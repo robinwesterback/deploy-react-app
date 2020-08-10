@@ -339,9 +339,13 @@ footer > nav > a {
   }
 }
 
-/* ----------------------------------------------------------Min-width 1280px */
+/* ----------------------------------------------------------Min-width 1170px */
 
-@media (min-width: 1280px) {
+@media (min-width: 1170px) {
+  .body {
+    padding-top: 10%
+  }
+
   .section {
     display: flex;
     flex-flow: row;
@@ -358,5 +362,29 @@ footer > nav > a {
 
   #campaign {
     padding-left: 2rem;
+  }
+
+  header {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5% 7.5% 2.5% 7.5%;
+  }
+
+  header nav ul {
+    display: flex;
+    margin-block-start: 0.25em;
+    margin-block-end: 0em;
+  }
+
+  header nav ul li {
+    border: none;
+  }
+
+  header nav ul li a:hover {
+    color: #e86b3e;
   }
 }

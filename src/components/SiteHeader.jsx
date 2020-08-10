@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import Media from 'react-media'
+
 import logo from '../assets/images/megapixel-logo-tiny.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from "@fortawesome/free-solid-svg-icons";
@@ -16,8 +18,34 @@ export default function SiteHeader() {
       <a href="#home" className="logo">
         <img src={logo} alt="Logo"></img>
       </a>
-
-      <button onClick={toggling}><FontAwesomeIcon icon={faBars} /></button>
+      
+      <Media query={{ maxWidth: 1169 }} >
+        {matches =>
+          matches ? (
+            <button onClick={toggling}><FontAwesomeIcon icon={faBars} /></button>  
+          ) : (
+            <nav>
+              <ul>
+                <li>
+                  <a href="#home">Home</a>
+                </li>
+                <li>
+                  <a href="#business">Business</a>
+                </li>
+                <li>
+                  <a href="#campaign">Campaign</a>
+                </li>
+                <li>
+                  <a href="#roi">ROI</a>
+                </li>
+                <li>
+                  <a href="#support">Support</a>
+                </li>  
+              </ul>
+            </nav>
+          )
+        }
+      </Media>
 
       <nav>
         {isOpen && (
@@ -39,7 +67,7 @@ export default function SiteHeader() {
             </li>
           </ul>
         )}
-      </nav>
+      </nav>      
     </header>
   );
 }

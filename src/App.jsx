@@ -15,8 +15,8 @@ function App() {
     <div>
       <SiteHeader logoName="ROI Calculator" />
 
-      <main className="body">
-        <section id="home">
+      <main className="body" id="home">
+        <section>
           <h1>The ROI calculator</h1>
           <p>
             Welcome to the ROI calculator. Add a business and/or campaign to get started. 
