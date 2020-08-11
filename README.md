@@ -283,6 +283,7 @@ The design was inspired by [Megapixel Groups](https://www.megapixelab.se/ "Megap
 
 ### Media
 The logo used for this project was delivered by [Megapixel Group](https://www.megapixel.group/ "Megapixel Group") and.
+The Favicon was generated [here](https://realfavicongenerator.net/ "Favicon").
 
 ### Acknowledgements
 Below is a list of the resources used to create this project:
