@@ -137,6 +137,12 @@ A wider range of KPIs and results. The possibility to compare results to eachoth
 Provide more information and resources about ROI and KPIs. Also add images, videos and make the application more visually appealing where appropriate.
 Add questionmarks that shows helpful information on hover.
 
+#### Smooth Interactive design
+Add transitional times for hover effects etc. to make the experience slicker.
+
+#### Better browser compability
+When needed, make the application more compatible with browsers other than Chrome.
+
 #### 404 error
 I want to customize the 404 error webpage.
 
@@ -203,42 +209,48 @@ Functions like links, overlay menu and contact form should work properly e.g "ta
 
 | Description   | Expected outcome | Pass | Comments |
 | ------------- |:----------------:| ----:| --------:|
-| Internet Explorer | The website works appropriately | No | The header has a transparent background |
-| Google Chrome | The website works appropriately | Yes | - |
-| Mozilla Firefox | The website works appropriately | No | "background-filter: blur" doesn't work |
-| Safari | The website works appropriately | Yes | - |
+| Internet Explorer | The application works appropriately | No | Paddings and margins doesn't work accordingly which ruins the design |
+| Google Chrome | The application works appropriately | Yes | - |
+| Mozilla Firefox | The application works appropriately | Yes | Everything works perfectly, I noticed that the paddings didn't work exactly the same though. When you use the navigation links you get navigated below the header. |
+| Safari | The application works appropriately | Yes | - |
 
 #### Mobile
 
 | Description   | Expected outcome | Pass | Comments |
 | ------------- |:----------------:| ----:| --------:|
-| Google Chrome | The website works appropriately | No | "background-filter: blur" doesn't work |
-| Safari | The website works appropriately | No | "background-filter: blur" doesn't work |
+| Google Chrome | The application works appropriately | Yes | I noticed the bars in the hamburger menu were a little out of place |
+| Safari | The application works appropriately | Yes | I noticed the bars in the hamburger menu were a little out of place |
 
 ### Responsiveness
 
 I have tested the responsiveness of the website [here](http://ami.responsivedesign.is/#) and it is responsive.
 
-![alt text](assets/images/responsive.jpg "Responsiveness")
+![alt text](src/assets/images/responsive-app.jpg "Responsiveness")
 
 ### Code validation
 
 #### CSS
-I validated my CSS with the [Jigsaw W3C Validation Service](https://jigsaw.w3.org/css-validator/). I got one error regarding the "backdrop-filter: blur" element in the ".overlay" class.
-I found this [information](https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter) regarding the issue. It is an element in development and thereof not compatible with all browsers to this date.
-I put the opacity to 0.9 for the users using non-compatible browsers to not get affected by the element not working.
+I validated my CSS with the [Jigsaw W3C Validation Service](https://jigsaw.w3.org/css-validator/). 
+I got 8 errors regarding that the property `padding-inline-start`, `margin-block-end` and `margin-block-start` doesn't exist.
+I found this [information](https://developer.mozilla.org/en-US/docs/Web/CSS/padding-inline-start) regarding the issue. 
+The CSS does make a positive difference in the design of the application as I have tested this. 
+Therefore I choose to keep it even though jigsaw regards the CSS as an error.
 
 #### HTML
 I validated my HTML with the [W3C Markup Validation Service](https://validator.w3.org/) with no errors or warnings to show.
 
 #### JS
-I validated my HTML with the [ESLint](https://eslint.org/) with no errors or warnings to show.
+I my JavaScript through a linter, [ESLint](https://eslint.org/), with no major issues. 
 
 ### Defensive design
-When users try to send the form without filling in the input- and text fields warning messages pop-up in the required fields.
+I've implemented defensive designs throughout the application. Fields are required before submitting. 
+MaxLength is applied to input fields. Error messages pops up where appropriate. 
+Email confirmation message pops up after successfully sent email. 
+There are more defensive design you can add to improve the user experience,
+such as adding interactive questionmarks that provide relevant information.
 
 ### Conclusion
-After testing the deployed website my overall conclusion is that the website is working as intended. 
+After testing the deployed application my overall conclusion is that the application is working as intended. 
 The minor flaws that exist don’t ruin the user experience but should be corrected in the future.
 
 ## Deployment
