@@ -60,7 +60,7 @@ function App() {
             <div className="result">
               {campaignResults.length > 0 &&
               <ResultSection
-              title="Campaign result"
+              title="Campaign results"
               results={campaignResults} />}
             </div>
           </div>

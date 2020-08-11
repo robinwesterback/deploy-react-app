@@ -41,7 +41,7 @@ So that I can adress the issue.
 ![alt text](src/assets/images/solution.jpg "Solution")
 
 #### Story 4
-As a user, I want to know to clear the business and campaign sections - 
+As a user, I want to be able to clear the business and campaign sections - 
 ![alt text](src/assets/images/clear.jpg "Clear sheets") 
 
 So that I can work from a clean sheet.
@@ -229,7 +229,7 @@ Functions like links, overlay menu and contact form should work properly e.g "ta
 
 ### Responsiveness
 
-I have tested the responsiveness of the website [here](http://ami.responsivedesign.is/# "Am I Responsive?") and it is responsive.
+I have tested the responsiveness of the application [here](http://ami.responsivedesign.is/# "Am I Responsive?") and it is responsive.
 
 ![alt text](src/assets/images/responsive-app.png "I am responsive!")
 
