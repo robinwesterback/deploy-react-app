@@ -19,42 +19,49 @@ The support section provides a contact form, social links (LinkedIn, Facebook, Y
 The user stories are showing pictures from an earlier stage of the project and not the deployed version. 
 You can access the deployed project [here](https://robinwesterback.github.io/deploy-react-app/) to try the user stories yourself.
 
+#### Story 1
 As a user, I want to click on a navigation link - 
 ![alt text](src/assets/images/click-roi.jpg "Click ROI") 
 
 So that I can get navigated towards the desired link location.
 ![alt text](src/assets/images/location-roi.jpg "Location ROI")
 
+#### Story 2
 As a user, I want to add a business and a campaign -
 ![alt text](src/assets/images/add-business.jpg "Add Business") 
 
 So that I can fill in my KPIs.
 ![alt text](src/assets/images/business-added.jpg "Business KPIs")
 
+#### Story 3
 As a user, I want to know why I can't add multiple businesses -
 ![alt text](src/assets/images/error-message.jpg "Input error message") 
 
 So that I can adress the issue. 
 ![alt text](src/assets/images/solution.jpg "Solution")
 
+#### Story 4
 As a user, I want to know to clear the business and campaign sections - 
 ![alt text](src/assets/images/clear.jpg "Clear sheets") 
 
 So that I can work from a clean sheet.
 ![alt text](src/assets/images/cleared.jpg "Cleared sheets")
 
+#### Story 5
 As a user, I want to know to fill in my KPIs -
 ![alt text](src/assets/images/fill-kpis.jpg "KPIs") 
 
 So that I can get the results. 
 ![alt text](src/assets/images/get-results.jpg "Results")
 
+#### Story 6
 As a user, I want to be able to contact the support -
 ![alt text](src/assets/images/send-email.jpg "Send email") 
 
 To get help answering the question I have.
 ![alt text](src/assets/images/email-sent.jpg "Email sent")
 
+#### Story 7
 As a user, I want to get information (social links, contact info etc.) about the owner of the site, so that I can contact the owner if I want to.
 ![alt text](src/assets/images/footer.jpg "Footer")
 
