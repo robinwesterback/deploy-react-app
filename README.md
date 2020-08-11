@@ -83,7 +83,7 @@ At the end of the application is the "support-section" with a contact form and a
 In this [link](https://github.com/robinwesterback/User-Centric-Frontend-Development-Milestone-Project/tree/master/wireframes) you can find the wireframes for each section that serves as the skeleton for the project.
 
 ### Surface
-In this [link](https://github.com/robinwesterback/User-Centric-Frontend-Development-Milestone-Project/tree/master/wireframes) you can find Megapixels website. 
+In this [link](https://www.megapixelab.se/) you can find Megapixels website. 
 This application follows Megapixels brand and graphic guidelines.
 The white background works well with the logo, buttons and font colors. 
 The design is clean and the orange color presents the information in a pleasant way.
@@ -158,21 +158,21 @@ As I'm done with the first version of this project I'm happy that I chose to bui
 It will be easy to implement future releases and continue to develop the functions the app provides.
 
 ### HTML
-This project uses semantic [HTML](https://html.com/) to improve SEO and user friendliness. 
+This project uses semantic [HTML](https://html.com/ "HTML") to improve SEO and user friendliness. 
 The HTML is rendered from jsx-files in this React app. 
 
 ### CSS
 The project uses responsive design to improve the user experience and availability on all devices. 
-The [CSS](https://www.w3.org/Style/CSS/Overview.en.html) is separated using comments. 
-I have a [reset stylesheet](https://cssreset.com/scripts/eric-meyer-reset-css/) to reduce browser 
+The [CSS](https://www.w3.org/Style/CSS/Overview.en.html "CSS") is separated using comments. 
+I have a [reset stylesheet](https://cssreset.com/scripts/eric-meyer-reset-css/ "CSS Reset") to reduce browser 
 inconsistencies in things like default line heights, margins and font sizes of headings, and so on. 
 
 ### JS
-I used [JavaScript](https://www.javascript.com/) for all the functions and interactivity on the application. 
+I used [JavaScript](https://www.javascript.com/ "JavaScript") for all the functions and interactivity on the application. 
 Comments are provided to give an explanation of the functions. 
 
 ### React
-I used [React](https://reactjs.org/) as a framework for all the functions and states. 
+I used [React](https://reactjs.org/ "React") as a framework for all the functions and states. 
 React is a JavaScript library that builds user interfaces for single-page applications by dividing UI into composable components.
 Businesses that use ReactJS are assured of better performance compared to those that use other frameworks. 
 Because ReactJS helps to prevent updating of DOM, it means that the apps will be faster and deliver better UX. 
@@ -223,24 +223,27 @@ Functions like links, overlay menu and contact form should work properly e.g "ta
 
 ### Responsiveness
 
-I have tested the responsiveness of the website [here](http://ami.responsivedesign.is/#) and it is responsive.
+I have tested the responsiveness of the website [here](http://ami.responsivedesign.is/# "Am I Responsive?") and it is responsive.
 
-![alt text](src/assets/images/responsive-app.jpg "Responsiveness")
+![alt text](src/assets/images/responsive-app.jpg "I am responsive!")
 
 ### Code validation
 
 #### CSS
-I validated my CSS with the [Jigsaw W3C Validation Service](https://jigsaw.w3.org/css-validator/). 
+I validated my CSS with the [Jigsaw W3C Validation Service](https://jigsaw.w3.org/css-validator/ "CSS Validation"). 
 I got 8 errors regarding that the property `padding-inline-start`, `margin-block-end` and `margin-block-start` doesn't exist.
-I found this [information](https://developer.mozilla.org/en-US/docs/Web/CSS/padding-inline-start) regarding the issue. 
+I found this [information](https://developer.mozilla.org/en-US/docs/Web/CSS/padding-inline-start "Padding inline start on Mozilla") regarding the issue. 
 The CSS does make a positive difference in the design of the application as I have tested this. 
 Therefore I choose to keep it even though jigsaw regards the CSS as an error.
 
 #### HTML
-I validated my HTML with the [W3C Markup Validation Service](https://validator.w3.org/) with no errors or warnings to show.
+I validated my HTML with the [W3C Markup Validation Service](https://validator.w3.org/ "HTML Validator") with no errors or warnings to show.
 
 #### JS
-I my JavaScript through a linter, [ESLint](https://eslint.org/), with no major issues. 
+I my JavaScript through a linter, [ESLint](https://eslint.org/ "JavaScript Linter"), with no major issues. 
+You can run ESLint on any file or directory like this: `$ npx eslint yourfile.js`.
+Errors found was e.g 'title' is missing in props validation which isn't required for the application to function correctly.
+You can find more information about the issue [here](https://reactjs.org/docs/typechecking-with-proptypes.html?fbclid=IwAR0AgCEmLxhljebWPsYkhHBDVy1kwrKnd1g-jO7qma4Q1GttPOnfdfAa2bo "Typechecking with PropTypes")
 
 ### Defensive design
 I've implemented defensive designs throughout the application. Fields are required before submitting. 
@@ -251,11 +254,14 @@ such as adding interactive questionmarks that provide relevant information.
 
 ### Conclusion
 After testing the deployed application my overall conclusion is that the application is working as intended. 
+It has a lot of potential to provide even more value for the user with future installations of the application.
 The minor flaws that exist don’t ruin the user experience but should be corrected in the future.
 
 ## Deployment
+I followed this [guide](https://github.com/gitname/react-gh-pages "Deploy React to GitHub Pages") to create and deploy the react app to GitHub Pages.
+Now you can deploy the project typing `$ npm run deploy`.
 
-1. Use this [link](https://github.com/robinwesterback/User-Centric-Frontend-Development-Milestone-Project) to get to the projects repository.
+1. Use this [link](https://github.com/robinwesterback/deploy-react-app/ "Deploy React App Repository") to get to the projects repository.
 
 2. Click "Clone or Download".
 
@@ -265,23 +271,28 @@ The minor flaws that exist don’t ruin the user experience but should be correc
 
 5. Change your current working directory to where you want the cloned directory to be made.
 
-6. Type "git clone" and then paste the URL you copied earlier.
+6. Type `$ git clone` and then paste the URL you copied earlier - like this `$ git clone URL`.
 
 7. When you press enter your local clone will be ready.
 
 ## Credits
 
 ### Content
-All content on the website was written by me.
-
-The Privacy Policy was generated by [Termsfeed](https://www.termsfeed.com/).
+All content on the application was written by me. 
+The design was inspired by [Megapixel Groups](https://www.megapixelab.se/ "Megapixel Group") brand and graphic guidelines.
 
 ### Media
-The photos used for this project were delivered by [Megapixel Group](https://www.megapixel.group/) and [Unsplash](https://unsplash.com/).
+The logo used for this project was delivered by [Megapixel Group](https://www.megapixel.group/ "Megapixel Group") and.
 
 ### Acknowledgements
-The Full Screen Overlay Menu was modified using tips from [w3schools](https://www.w3schools.com/howto/howto_js_fullscreen_overlay.asp).
+Below is a list of the resources used to create this project:
 
-The Contact Form with a background image was modified using tips from [w3schools](https://www.w3schools.com/howto/howto_css_form_on_image.asp).
-
-Eric Meyers Reset can be found [here](https://cssreset.com/scripts/eric-meyer-reset-css/).
+- [Deploying a React App to GitHub Pages](https://github.com/gitname/react-gh-pages "Create React App and deploy to GitHub Pages")
+- [React](https://reactjs.org/ "React")
+- [React Tutorial](https://reactjs.org/tutorial/tutorial.html#before-we-start-the-tutorial "React Tutorial")
+- [React Fundamentals](https://reactnative.dev/docs/intro-react "React Fundamentals")
+- [React Custom Hooks](https://reactjs.org/docs/hooks-custom.html "React Custom Hooks")
+- [Using the State Hook](https://reactjs.org/docs/hooks-state.html "Using the State Hook")
+- [Hooks API Reference](https://reactjs.org/docs/hooks-reference.html "Hooks API Reference")
+- [EmailJS and React](https://www.emailjs.com/docs/examples/reactjs/ "EmailJS and React")
+- [Eric Meyers Reset](https://cssreset.com/scripts/eric-meyer-reset-css/ "Eric Meyers Reset")
