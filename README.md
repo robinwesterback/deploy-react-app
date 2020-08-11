@@ -21,43 +21,31 @@ You can access the deployed project [here](https://robinwesterback.github.io/dep
 
 As a user, I want to click on a navigation link, so that I can get navigated towards the desired link location. 
 
-![alt text](mockups/home.png "Click navigation link") ![alt text](mockups/about.png "Navigation link location")
+![alt text](src/assets/images/click-roi.jpg "Click ROI") ![alt text](src/assets/images/location-roi.jpg "Location ROI")
 
-As a user, I want to add a business, so that I can fill in my KPIs.
+As a user, I want to add a business and a campaign so that I can fill in my KPIs.
 
-![alt text](mockups/contact.png "Add Business") ![alt text](mockups/menu.png "Business KPIs")
+![alt text](src/assets/images/add-business.jpg "Add Business") ![alt text](src/assets/images/business-added.jpg "Business KPIs")
 
 As a user, I want to know why I can't add multiple businesses, so that I can adress the issue. 
 
-![alt text](mockups/projects-page1.png "Input error message") ![alt text](mockups/projects-page2.png "Add multiple businesses")
+![alt text](src/assets/images/error-message.jpg "Input error message") ![alt text](src/assets/images/solution.jpg "Solution")
 
-As a user, I want to know to clear the business section, so that I can work from a clean business sheet. 
+As a user, I want to know to clear the business and campaign sections, so that I can work from a clean sheet. 
 
-![alt text](mockups/projects-page1.png "Clear business section") ![alt text](mockups/projects-page2.png "Clean business sheet")
-
-As a user, I want to add a campaign, so that I can fill in my KPIs.
-
-![alt text](mockups/contact.png "Add Campaign") ![alt text](mockups/menu.png "Campaign KPIs")
-
-As a user, I want to know why I can't add multiple campaigns, so that I can adress the issue. 
-
-![alt text](mockups/projects-page1.png "Input error message") ![alt text](mockups/projects-page2.png "Add multiple campaigns")
-
-As a user, I want to know to clear the campaign section, so that I can work from a clean campaign sheet. 
-
-![alt text](mockups/projects-page1.png "Clear campaign section") ![alt text](mockups/projects-page2.png "Clean campaign sheet")
+![alt text](src/assets/images/clear.jpg "Clear sheets") ![alt text](src/assets/images/cleared.jpg "Cleared sheets")
 
 As a user, I want to know to fill in my KPIs, so that I can get the results. 
 
-![alt text](mockups/projects-page1.png "KPIs") ![alt text](mockups/projects-page2.png "Results")
+![alt text](src/assets/images/fill-kpis.jpg "KPIs") ![alt text](src/assets/images/get-results.jpg "Results")
 
 As a user, I want to be able to contact the support, to get help answering the question I have.
 
-![alt text](mockups/projects-page1.png "Send email") ![alt text](mockups/projects-page2.png "Email sent")
+![alt text](src/assets/images/send-email.jpg "Send email") ![alt text](src/assets/images/email-sent.jpg "Email sent")
 
 As a user, I want to get information (social links, contact info etc.) about the owner of the site, so that I can contact the owner if I want to.
 
-![alt text](mockups/projects-page1.png "Footer")
+![alt text](src/assets/images/footer.jpg "Footer")
 
 ### Strategy
 The goal with the application is to provide quick and easy access to the functions, tools and recourses it provides.
@@ -80,7 +68,7 @@ The result section follows where you can reap the results of your investments.
 At the end of the application is the "support-section" with a contact form and a footer where you can access social-links, contact-info and a link to Megapixels marketing services.
 
 ### Skeleton
-In this [link](https://github.com/robinwesterback/User-Centric-Frontend-Development-Milestone-Project/tree/master/wireframes) you can find the wireframes for each section that serves as the skeleton for the project.
+In this [link](https://github.com/robinwesterback/deploy-react-app/tree/master/src/wireframes) you can find the wireframes for each section that serves as the skeleton for the project.
 
 ### Surface
 In this [link](https://www.megapixelab.se/) you can find Megapixels website. 
@@ -197,8 +185,8 @@ Functions like links, overlay menu and contact form should work properly e.g "ta
 | Description   | Expected outcome | Pass | Comments |
 | ------------- |:----------------:| ----:| --------:|
 | Click on a navigation link | Get navigated towards the desired link location | Yes | - |
-| Click on add business | A new business is added | Yes | The projects are temporary and will be updated in the future as I get projects to showcase |
-| Add a business with the same name | It doesn't work and an error-message pops up | Yes | Form validation doesn't function but will be implemented in the future |
+| Click on add business | A new business is added | Yes | - |
+| Add a business with the same name | It doesn't work and an error-message pops up | Yes | - |
 | Click on clear in the business section | Clears the business section | Yes | - |
 | Fill in KPIs on a business | Results shown in the result section | Yes | - |
 | Send a message from the contact form | Message gets sent | Yes | - |
@@ -225,7 +213,7 @@ Functions like links, overlay menu and contact form should work properly e.g "ta
 
 I have tested the responsiveness of the website [here](http://ami.responsivedesign.is/# "Am I Responsive?") and it is responsive.
 
-![alt text](src/assets/images/responsive-app.jpg "I am responsive!")
+![alt text](src/assets/images/responsive-app.png "I am responsive!")
 
 ### Code validation
 
@@ -240,14 +228,14 @@ Therefore I choose to keep it even though jigsaw regards the CSS as an error.
 I validated my HTML with the [W3C Markup Validation Service](https://validator.w3.org/ "HTML Validator") with no errors or warnings to show.
 
 #### JS
-I my JavaScript through a linter, [ESLint](https://eslint.org/ "JavaScript Linter"), with no major issues. 
+I ran my JavaScript through a linter, [ESLint](https://eslint.org/ "JavaScript Linter"), with no major issues. 
 You can run ESLint on any file or directory like this: `$ npx eslint yourfile.js`.
 Errors found was e.g 'title' is missing in props validation which isn't required for the application to function correctly.
 You can find more information about the issue [here](https://reactjs.org/docs/typechecking-with-proptypes.html?fbclid=IwAR0AgCEmLxhljebWPsYkhHBDVy1kwrKnd1g-jO7qma4Q1GttPOnfdfAa2bo "Typechecking with PropTypes")
 
 ### Defensive design
 I've implemented defensive designs throughout the application. Fields are required before submitting. 
-MaxLength is applied to input fields. Error messages pops up where appropriate. 
+`maxLength` is applied to `input` fields. Error messages pops up where appropriate. 
 Email confirmation message pops up after successfully sent email. 
 There are more defensive design you can add to improve the user experience,
 such as adding interactive questionmarks that provide relevant information.
