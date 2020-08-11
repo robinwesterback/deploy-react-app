@@ -15,7 +15,7 @@ export default function SiteContact() {
       }, (error) => {
         console.log(error.text)
         setEmailValidation(`Email Failed to Send`)
-        document.getElementById('email.message').className = "input-error-message";;
+        document.getElementById('email.message').className = "input-error-message";
       }
     );
   }
@@ -24,27 +24,27 @@ export default function SiteContact() {
     <form onSubmit={sendEmail}>
       <label htmlFor="user_name">
         Name:
-        <input type="text" id="user_name" name="user_name" required />
+        <input type="text" id="user_name" name="user_name" maxLength="25" required />
       </label>
 
       <label htmlFor="user_company">
         Company:
-        <input type="text" id="user_company" name="user_company" />
+        <input type="text" id="user_company" name="user_company" maxLength="25" />
       </label>
 
       <label htmlFor="user_email">
         E-mail:
-        <input type="email" id="user_email" name="user_email" required />
+        <input type="email" id="user_email" name="user_email" maxLength="40" required />
       </label>
 
       <label htmlFor="user_phone">
         Phone:
-        <input type="number" id="user_phone" name="user_phone" />
+        <input type="number" id="user_phone" name="user_phone" maxLength="25" />
       </label>
 
       <label htmlFor="user_message">
         Message:
-        <textarea id="user_message" name="user_message" required />
+        <textarea id="user_message" name="user_message" maxLength="120" required />
       </label>
 
       <button type="submit">Send</button>

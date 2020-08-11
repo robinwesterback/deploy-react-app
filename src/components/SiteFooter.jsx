@@ -28,7 +28,7 @@ export default function SiteFooter() {
         <h6>
           Did you know that Megapixel is offering marketing services?
           <br></br>
-          <a href="https://www.megapixelab.se/" target="_blank">https://www.megapixelab.se/</a>
+          <a href="https://www.megapixelab.se/" target="_blank" rel="noreferrer">https://www.megapixelab.se/</a>
         </h6>
       </div>
 
@@ -36,35 +36,40 @@ export default function SiteFooter() {
         <a 
           href="https://www.linkedin.com/company/megapixel-group-ab/" 
           className="linkedin-blue"
-          target="_blank">
+          target="_blank"
+          rel="noreferrer">
           <FontAwesomeIcon icon={faLinkedin } />
         </a>
 
         <a 
           href="https://www.facebook.com/megapixelgroup"
           className="facebook-blue"
-          target="_blank">
+          target="_blank"
+          rel="noreferrer">
           <FontAwesomeIcon icon={faFacebookSquare } />
         </a>
 
         <a 
           href="https://www.youtube.com/channel/UCfy9Kk5xGDswA-lprRQLsNA"
           className="youtube-red"
-          target="_blank">
+          target="_blank"
+          rel="noreferrer">
           <FontAwesomeIcon icon={faYoutubeSquare } />
         </a>
 
         <a 
           href="https://vimeo.com/megapixel"
           className="vimeo-blue"
-          target="_blank">
+          target="_blank"
+          rel="noreferrer">
           <FontAwesomeIcon icon={faVimeoSquare } />
         </a>
                 
         <a 
           href="https://www.instagram.com/megapixelgroup/"
           className="instagram-blue"
-          target="_blank">
+          target="_blank"
+          rel="noreferrer">
           <FontAwesomeIcon icon={faInstagramSquare } />
         </a>
       </nav>

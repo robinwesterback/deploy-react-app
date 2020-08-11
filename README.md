@@ -55,7 +55,7 @@ As a user, I want to be able to contact the support, to get help answering the q
 
 ![alt text](mockups/projects-page1.png "Send email") ![alt text](mockups/projects-page2.png "Email sent")
 
-As a user, I want to get information about the owner of the site, so that I can contact the owner if I want to.
+As a user, I want to get information (social links, contact info etc.) about the owner of the site, so that I can contact the owner if I want to.
 
 ![alt text](mockups/projects-page1.png "Footer")
 
@@ -153,7 +153,7 @@ It will be easy to implement future releases and continue to develop the functio
 
 ### HTML
 This project uses semantic [HTML](https://html.com/) to improve SEO and user friendliness. 
-The HTML is rendered from jsx-files in this React app.
+The HTML is rendered from jsx-files in this React app. 
 
 ### CSS
 The project uses responsive design to improve the user experience and availability on all devices. 
@@ -163,7 +163,7 @@ inconsistencies in things like default line heights, margins and font sizes of h
 
 ### JS
 I used [JavaScript](https://www.javascript.com/) for all the functions and interactivity on the application. 
-Comments are provided to give an explanation of the functions.
+Comments are provided to give an explanation of the functions. 
 
 ### React
 I used [React](https://reactjs.org/) as a framework for all the functions and states. 
@@ -173,30 +173,29 @@ Because ReactJS helps to prevent updating of DOM, it means that the apps will be
 ReactJS was designed to help improve the total rendered pages from the website server.
 
 ## Testing
-I have tested the website and looked for flaws in the design and errors in the functionality on several browsers on desktop, laptop and iPhone 7.
-I have also tested the user stories to see if the website fills its purpose towards the user. 
-The expected outcome is that the design is responsive and functional on all browsers/devices. 
+I have tested the application and looked for flaws in the design and errors in the functionality on several browsers on desktop, laptop and iPhone 7.
+I have also tested the user stories to see if the application fills its purpose towards the user. 
+The expected outcome is that the application is responsive and functional on all browsers/devices. 
 Functions like links, overlay menu and contact form should work properly e.g "target=”_blank"" where appropriate. Below are my findings and comments.
 
 ### Functionality
 
 | Description   | Expected outcome | Pass | Comments |
 | ------------- |:----------------:| ----:| --------:|
-| Click anywhere in the home-section | Links should work | Yes | - |
-| Click anywhere in the about-section | Links should work | Yes | - |
-| Click anywhere in the projects-section | Links should work | Yes | - |
-| Click anywhere in the contact-section | Links should work, input- and text fields should require text/e-mail. | Yes | Form validation isn't implemented, clicking the "send" button should direct you to 404. |
+| Input 30 letters in Campaign name | Max input of 25 letters | Yes | - |
+| Add a business without a name | Shouldn't work, "fill this field" should pop up | Yes | - |
+| Send an empty contact form | Shouldn't work, fields are required | Yes | - |
 
 ### User Stories
 
 | Description   | Expected outcome | Pass | Comments |
 | ------------- |:----------------:| ----:| --------:|
-| Find information about me and what I offer | Go to the about-section and read | Yes | - |
-| Find previous work | Go to the projects-section and click the project | Yes | The projects are temporary and will be updated in the future as I get projects to showcase |
-| Find contact info | Go to the contact-section and find e-mail or use form | Yes | Form validation doesn't function but will be implemented in the future |
-| Find social links and resume | Click the social links in the footer | Yes | - |
-| Navigate the website easily | Click the navigation links to get directed to the desired section | Yes | - |
-
+| Click on a navigation link | Get navigated towards the desired link location | Yes | - |
+| Click on add business | A new business is added | Yes | The projects are temporary and will be updated in the future as I get projects to showcase |
+| Add a business with the same name | It doesn't work and an error-message pops up | Yes | Form validation doesn't function but will be implemented in the future |
+| Click on clear in the business section | Clears the business section | Yes | - |
+| Fill in KPIs on a business | Results shown in the result section | Yes | - |
+| Send a message from the contact form | Message gets sent | Yes | - |
 
 ### Different Browsers and devices
 
@@ -231,6 +230,9 @@ I put the opacity to 0.9 for the users using non-compatible browsers to not get 
 
 #### HTML
 I validated my HTML with the [W3C Markup Validation Service](https://validator.w3.org/) with no errors or warnings to show.
+
+#### JS
+I validated my HTML with the [ESLint](https://eslint.org/) with no errors or warnings to show.
 
 ### Defensive design
 When users try to send the form without filling in the input- and text fields warning messages pop-up in the required fields.
