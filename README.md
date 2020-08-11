@@ -19,32 +19,43 @@ The support section provides a contact form, social links (LinkedIn, Facebook, Y
 The user stories are showing pictures from an earlier stage of the project and not the deployed version. 
 You can access the deployed project [here](https://robinwesterback.github.io/deploy-react-app/) to try the user stories yourself.
 
-As a user, I want to click on a navigation link, so that I can get navigated towards the desired link location. 
+As a user, I want to click on a navigation link - 
+![alt text](src/assets/images/click-roi.jpg "Click ROI") 
 
-![alt text](src/assets/images/click-roi.jpg "Click ROI") ![alt text](src/assets/images/location-roi.jpg "Location ROI")
+So that I can get navigated towards the desired link location.
+![alt text](src/assets/images/location-roi.jpg "Location ROI")
 
-As a user, I want to add a business and a campaign so that I can fill in my KPIs.
+As a user, I want to add a business and a campaign -
+![alt text](src/assets/images/add-business.jpg "Add Business") 
 
-![alt text](src/assets/images/add-business.jpg "Add Business") ![alt text](src/assets/images/business-added.jpg "Business KPIs")
+So that I can fill in my KPIs.
+![alt text](src/assets/images/business-added.jpg "Business KPIs")
 
-As a user, I want to know why I can't add multiple businesses, so that I can adress the issue. 
+As a user, I want to know why I can't add multiple businesses -
+![alt text](src/assets/images/error-message.jpg "Input error message") 
 
-![alt text](src/assets/images/error-message.jpg "Input error message") ![alt text](src/assets/images/solution.jpg "Solution")
+So that I can adress the issue. 
+![alt text](src/assets/images/solution.jpg "Solution")
 
-As a user, I want to know to clear the business and campaign sections, so that I can work from a clean sheet. 
+As a user, I want to know to clear the business and campaign sections - 
+![alt text](src/assets/images/clear.jpg "Clear sheets") 
 
-![alt text](src/assets/images/clear.jpg "Clear sheets") ![alt text](src/assets/images/cleared.jpg "Cleared sheets")
+So that I can work from a clean sheet.
+![alt text](src/assets/images/cleared.jpg "Cleared sheets")
 
-As a user, I want to know to fill in my KPIs, so that I can get the results. 
+As a user, I want to know to fill in my KPIs -
+![alt text](src/assets/images/fill-kpis.jpg "KPIs") 
 
-![alt text](src/assets/images/fill-kpis.jpg "KPIs") ![alt text](src/assets/images/get-results.jpg "Results")
+So that I can get the results. 
+![alt text](src/assets/images/get-results.jpg "Results")
 
-As a user, I want to be able to contact the support, to get help answering the question I have.
+As a user, I want to be able to contact the support -
+![alt text](src/assets/images/send-email.jpg "Send email") 
 
-![alt text](src/assets/images/send-email.jpg "Send email") ![alt text](src/assets/images/email-sent.jpg "Email sent")
+To get help answering the question I have.
+![alt text](src/assets/images/email-sent.jpg "Email sent")
 
 As a user, I want to get information (social links, contact info etc.) about the owner of the site, so that I can contact the owner if I want to.
-
 ![alt text](src/assets/images/footer.jpg "Footer")
 
 ### Strategy
