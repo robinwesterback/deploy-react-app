@@ -170,8 +170,6 @@ The HTML is rendered from jsx-files in this React app.
 ### CSS
 The project uses responsive design to improve the user experience and availability on all devices. 
 The [CSS](https://www.w3.org/Style/CSS/Overview.en.html "CSS") is separated using comments. 
-I have a [reset stylesheet](https://cssreset.com/scripts/eric-meyer-reset-css/ "CSS Reset") to reduce browser 
-inconsistencies in things like default line heights, margins and font sizes of headings, and so on. 
 
 ### JS
 I used [JavaScript](https://www.javascript.com/ "JavaScript") for all the functions and interactivity on the application. 
@@ -195,6 +193,7 @@ Functions like links, overlay menu and contact form should work properly e.g "ta
 | Description   | Expected outcome | Pass | Comments |
 | ------------- |:----------------:| ----:| --------:|
 | Input 30 letters in Campaign name | Max input of 25 letters | Yes | - |
+| Input letters in the KPI fields | Shouldn't work, only numbers allowed | Yes | - |
 | Add a business without a name | Shouldn't work, "fill this field" should pop up | Yes | - |
 | Send an empty contact form | Shouldn't work, fields are required | Yes | - |
 
@@ -265,7 +264,29 @@ The minor flaws that exist don’t ruin the user experience but should be correc
 
 ## Deployment
 I followed this [guide](https://github.com/gitname/react-gh-pages "Deploy React to GitHub Pages") to create and deploy the react app to GitHub Pages.
-Now you can deploy the project typing `$ npm run deploy`.
+Initially I created the app using git bash and VS Code locally on my computer and pushed the project to GitHub. 
+From there I continued the development on GitPod, commited to git and pushed to the Master Branch on GitHub. 
+
+To deploy this page to GitHub Pages from its [GitHub repository](https://github.com/robinwesterback/deploy-react-app "GitHub repository"), the following steps were taken:
+
+1. Log into GitHub
+
+2. From the list of repositories on the screen, select **robinwesterback/deploy-react-app**
+
+3. Go to **Settings**
+
+4. Scroll down to the **GitHub Pages** section.
+
+5. Under **Source** click the drop-down menu labelled None and select **Branch: gh-pages**
+
+6. On selecting **Branch: gh-pages** the page is automatically refreshed, the application is now deployed.
+
+7. Scroll back down to the **GitHub Pages** section to retrieve the link to the deployed application.
+
+Now you can package and push the project to **Branch: gh-pages** to update the deployed version of the application with the command `$ npm run deploy`.
+At the moment of submitting this Milestone project the Development Branch and Master Branch are identical.
+
+### How to run this project locally
 
 1. Use this [link](https://github.com/robinwesterback/deploy-react-app/ "Deploy React App Repository") to get to the projects repository.
 
@@ -301,5 +322,5 @@ Below is a list of the resources used to create this project:
 - [React Custom Hooks](https://reactjs.org/docs/hooks-custom.html "React Custom Hooks")
 - [Using the State Hook](https://reactjs.org/docs/hooks-state.html "Using the State Hook")
 - [Hooks API Reference](https://reactjs.org/docs/hooks-reference.html "Hooks API Reference")
+- [React Media Queries](https://github.com/ReactTraining/react-media "React Media Queries")
 - [EmailJS and React](https://www.emailjs.com/docs/examples/reactjs/ "EmailJS and React")
-- [Eric Meyers Reset](https://cssreset.com/scripts/eric-meyer-reset-css/ "Eric Meyers Reset")

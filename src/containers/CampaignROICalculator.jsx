@@ -6,7 +6,7 @@ export default function CampaignROICalculator({setResult}) {
   const [addCampaignError, setAddCampaignError] = useState()
   const addNewForm = useRef()
 
-  // getCampaign(name) finds the items to every campaign.
+  // getCampaign(name) finds the items for every campaign.
   const getCampaign = (name) => campaigns.find((item) => item.name === name)
 
   // clear() clears and resets addNewForm, Result and Campaigns.

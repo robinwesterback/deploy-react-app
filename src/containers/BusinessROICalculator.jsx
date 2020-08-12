@@ -6,7 +6,7 @@ export default function BusinessROICalculator({setResult}) {
   const [addBusinessError, setAddBusinessError] = useState()
   const addNewForm = useRef()
 
-  // getBusiness(name) finds the items to every business.
+  // getBusiness(name) finds the items for every business.
   const getBusiness = (name) => businesses.find((item) => item.name === name)
 
   // clear() clears and resets addNewForm, Result and Businesses.

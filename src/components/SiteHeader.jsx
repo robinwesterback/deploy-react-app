@@ -9,6 +9,7 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 export default function SiteHeader() {
   const [isOpen, setIsOpen] = useState(false);
 
+  // toggling() opens/closes the nav menu on media query maxWidth 1169px
   const toggling = () => {
     setIsOpen(!isOpen);
   }

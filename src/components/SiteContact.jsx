@@ -5,6 +5,7 @@ export default function SiteContact() {
   const [emailValidation, setEmailValidation] = useState()  
   
   // sendEmail Allows the user to send Email with emailjs 
+  // The code was found here: https://www.emailjs.com/docs/examples/reactjs/
   const sendEmail = (e) => {
     e.preventDefault();
 
