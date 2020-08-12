@@ -28,7 +28,7 @@ export default function SiteFooter() {
         <h6>
           Did you know that Megapixel is offering marketing services?
           <br></br>
-          <a href="https://www.megapixelab.se/" target="_blank" rel="noreferrer">https://www.megapixelab.se/</a>
+          <a href="https://www.megapixelab.se/" target="_blank" rel="noopener noreferrer">https://www.megapixelab.se/</a>
         </h6>
       </div>
 
@@ -37,7 +37,7 @@ export default function SiteFooter() {
           href="https://www.linkedin.com/company/megapixel-group-ab/" 
           className="linkedin-blue"
           target="_blank"
-          rel="noreferrer">
+          rel="noopener noreferrer">
           <FontAwesomeIcon icon={faLinkedin } />
         </a>
 
@@ -45,7 +45,7 @@ export default function SiteFooter() {
           href="https://www.facebook.com/megapixelgroup"
           className="facebook-blue"
           target="_blank"
-          rel="noreferrer">
+          rel="noopener noreferrer">
           <FontAwesomeIcon icon={faFacebookSquare } />
         </a>
 
@@ -53,7 +53,7 @@ export default function SiteFooter() {
           href="https://www.youtube.com/channel/UCfy9Kk5xGDswA-lprRQLsNA"
           className="youtube-red"
           target="_blank"
-          rel="noreferrer">
+          rel="noopener noreferrer">
           <FontAwesomeIcon icon={faYoutubeSquare } />
         </a>
 
@@ -61,7 +61,7 @@ export default function SiteFooter() {
           href="https://vimeo.com/megapixel"
           className="vimeo-blue"
           target="_blank"
-          rel="noreferrer">
+          rel="noopener noreferrer">
           <FontAwesomeIcon icon={faVimeoSquare } />
         </a>
                 
@@ -69,7 +69,7 @@ export default function SiteFooter() {
           href="https://www.instagram.com/megapixelgroup/"
           className="instagram-blue"
           target="_blank"
-          rel="noreferrer">
+          rel="noopener noreferrer">
           <FontAwesomeIcon icon={faInstagramSquare } />
         </a>
       </nav>
