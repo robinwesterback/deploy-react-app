@@ -298,7 +298,9 @@ At the moment of submitting this Milestone project the Development Branch and Ma
 
 5. Change your current working directory to where you want the cloned directory to be made.
 
-6. Type `$ git clone` and then paste the URL you copied earlier - like this `$ git clone URL`.
+6. Type `$ git clone` and then paste the URL you copied earlier.
+
+   `git clone https://github.com/USERNAME/REPOSITORY`
 
 7. When you press enter your local clone will be ready.
 
