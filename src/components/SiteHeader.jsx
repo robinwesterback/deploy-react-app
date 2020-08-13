@@ -31,10 +31,7 @@ export default function SiteHeader() {
                   <a href="#home">Home</a>
                 </li>
                 <li>
-                  <a href="#business">Business</a>
-                </li>
-                <li>
-                  <a href="#campaign">Campaign</a>
+                  <a href="#business">Add Investment</a>
                 </li>
                 <li>
                   <a href="#roi">ROI</a>
@@ -47,7 +44,10 @@ export default function SiteHeader() {
           )
         }
       </Media>
-
+      
+      {/* The function doesn't work properly if the nav below would be included
+          in the Media query above, that's why it's separated. */}
+      <Media query={{ maxWidth: 1169 }} >
       <nav>
         {isOpen && (
           <ul>
@@ -68,7 +68,8 @@ export default function SiteHeader() {
             </li>
           </ul>
         )}
-      </nav>      
+      </nav>     
+      </Media> 
     </header>
   );
 }

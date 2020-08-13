@@ -19,23 +19,22 @@ function App() {
         <section id="home">
           <h1>The ROI calculator</h1>
           <p>
-            Welcome to the ROI calculator. Add a business and/or campaign to get started. 
-            Define your KPI:s and the results will show in the ROI section. 
-            Add several businesses or campaigns to compare them. Clear the section you want to 
-            clear to get a fresh sheet. 
+            Welcome to the ROI calculator. Calculate your Return On Investment (ROI) by defining Key Performance indicators (KPIs). 
+            Add a business and/or campaign to get started. Define your KPIs and the results will show in the ROI section. 
+            Add several businesses or campaigns to compare the results. Clear the section you want to clear to get a fresh sheet. 
           </p>
         </section>
 
         <section className="section">
           <div id="business">
             <h2>Add a business</h2>
-            <p className="orange-bold">Add a business by naming it to start defining your KPI:s.</p>
+            <p className="orange-bold">Add a business by naming it to start defining your KPIs.</p>
             <BusinessROICalculator setResult={setBusinessResults} />
           </div>
 
           <div id="campaign">
             <h2>Add a campaign</h2>
-            <p className="orange-bold">Add a campaign by naming it to start defining your KPI:s.</p>
+            <p className="orange-bold">Add a campaign by naming it to start defining your KPIs.</p>
             <CampaignROICalculator setResult={setCampaignResults} />
           </div>
         </section>  
@@ -44,7 +43,7 @@ function App() {
           <h2>Calculate your ROI</h2>
           <p className="orange-bold">
             Find the results of your business(es) and campaign(s) below. 
-            Just change the KPI:s or add more investments to calculate new results.
+            Just change the KPIs or add more investments to calculate new results.
             If you want to clear your results click the button(s) above.
             Take a snapshot of your results to provide for people of interest.
           </p>
@@ -69,7 +68,7 @@ function App() {
         <section id="support">
           <h2>Support</h2>
           <p className="orange-bold">
-            Are you in need of support? Do you want to feedback on any KPI:s or functionalities that you feel are missing?
+            Are you in need of support? Do you want to feedback on any KPIs or functionalities that you feel are missing?
             Contact us via the form below! 
           </p>
           <SiteContact/>
@@ -81,6 +80,7 @@ function App() {
   );
 }
 
+// ResultSections displays the item results.
 const ResultSection = ({title, results}) => (
   <div>
     <h3>{title}</h3>

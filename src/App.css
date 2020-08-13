@@ -346,7 +346,11 @@ footer > nav > a {
 
 @media (min-width: 1170px) {
   #home, #business, #campaign, #roi, #support {
-    padding-top: 6rem;
+    padding-top: 10%;
+  }
+
+  #business, #campaign {
+    width: 47%;
   }
 
   .section {
@@ -375,6 +379,10 @@ footer > nav > a {
     display: flex;
     justify-content: space-between;
     padding: 2.5% 7.5% 2.5% 7.5%;
+  }
+
+  header nav {
+    padding-right: 15%;
   }
 
   header nav ul {

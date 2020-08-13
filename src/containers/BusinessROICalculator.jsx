@@ -81,6 +81,7 @@ export default function BusinessROICalculator({setResult}) {
 
   return (
     <div>
+      {/* Form for adding a new Business */}
       <form ref={addNewForm} onSubmit={addBusiness}>
         <label htmlFor="businessName">
           Business name:
@@ -103,6 +104,7 @@ export default function BusinessROICalculator({setResult}) {
         <button type="submit">Add</button>
       </form>
 
+      {/* Business sheet */}
       {businesses.map((business, i) => (
         <form 
           key={i} 

@@ -80,6 +80,7 @@ export default function CampaignROICalculator({setResult}) {
 
   return (
     <div>
+      {/* Form for adding a new Campaign. */}
       <form ref={addNewForm} onSubmit={addCampaign}>
         <label htmlFor="campaignName">
           Name
@@ -100,7 +101,8 @@ export default function CampaignROICalculator({setResult}) {
 
         <button type="submit">Add</button>
       </form>
-
+      
+      {/* Campaign sheet */}
       {campaigns.map((campaign, i) => (
         <form
           key={i}
@@ -161,7 +163,7 @@ export default function CampaignROICalculator({setResult}) {
           </label>
         </form>
       ))}
-
+        
       <button type="button" onClick={clear}>Clear</button>
     </div>
   )
