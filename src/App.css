@@ -95,10 +95,6 @@ header button {
   margin: 0px 0px 0px 0px;
 }
 
-header button:hover {
-  background-color: #333333;
-}
-
 header nav ul {
   list-style: none;
   padding-inline-start: 0px;
