@@ -311,7 +311,7 @@ All content on the application was written by me.
 The design was inspired by [Megapixel Groups](https://www.megapixelab.se/ "Megapixel Group") brand and graphic guidelines.
 
 ### Media
-The logo used for this project was delivered by [Megapixel Group](https://www.megapixel.group/ "Megapixel Group") and.
+The logo used for this project was delivered by [Megapixel Group](https://www.megapixel.group/ "Megapixel Group").
 The Favicon was generated [here](https://realfavicongenerator.net/ "Favicon").
 
 ### Acknowledgements
