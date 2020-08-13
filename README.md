@@ -162,7 +162,6 @@ Are there any features that you would like me to implement to improve the applic
 I used HTML, CSS and Javascript in this project. I decided to use the React framework and created a react app. 
 As I'm done with the first version of this project I'm happy that I chose to build a single page application in React.
 It will be easy to implement future releases and continue to develop the functions the app provides.
-I'm looking forward to keep improving my knowledge of JavaScript and React to improve this application as well as applying it to future projects.
 
 ### HTML
 This project uses semantic [HTML](https://html.com/ "HTML") to improve SEO and user friendliness. 
@@ -316,6 +315,13 @@ The logo used for this project was delivered by [Megapixel Group](https://www.me
 The Favicon was generated [here](https://realfavicongenerator.net/ "Favicon").
 
 ### Acknowledgements
+I'm happy that I got inspired to create the ROI calculator by Christian, CEO of [Megapixel Group](https://www.megapixel.group/ "Megapixel Group").
+Alex the Man inspired me to create the app using [React](https://reactjs.org/ "React") as a framework.
+I believe [React](https://reactjs.org/ "React") has proved to be a very good framework for creating this application and for long-term effiency.
+It works better and is easier to work with than I could have imagined.
+I'm looking forward to keep improving my knowledge of JavaScript and React to improve this application as well as applying it to future projects.
+
+## Resources
 Below is a list of the resources used to create this project:
 
 - [Deploying a React App to GitHub Pages](https://github.com/gitname/react-gh-pages "Create React App and deploy to GitHub Pages")
