@@ -162,6 +162,7 @@ Are there any features that you would like me to implement to improve the applic
 I used HTML, CSS and Javascript in this project. I decided to use the React framework and created a react app. 
 As I'm done with the first version of this project I'm happy that I chose to build a single page application in React.
 It will be easy to implement future releases and continue to develop the functions the app provides.
+I'm looking forward to keep improving my knowledge of JavaScript and React to improve this application as well as applying it to future projects.
 
 ### HTML
 This project uses semantic [HTML](https://html.com/ "HTML") to improve SEO and user friendliness. 
@@ -216,15 +217,15 @@ Functions like links, overlay menu and contact form should work properly e.g "ta
 | ------------- |:----------------:| ----:| --------:|
 | Internet Explorer | The application works appropriately | No | Paddings and margins doesn't work accordingly which ruins the design |
 | Google Chrome | The application works appropriately | Yes | - |
-| Mozilla Firefox | The application works appropriately | Yes | Everything works perfectly, I noticed that the paddings didn't work exactly the same though. When you use the navigation links you get navigated below the header. |
+| Mozilla Firefox | The application works appropriately | Yes | - |
 | Safari | The application works appropriately | Yes | - |
 
 #### Mobile
 
 | Description   | Expected outcome | Pass | Comments |
 | ------------- |:----------------:| ----:| --------:|
-| Google Chrome | The application works appropriately | Yes | I noticed the bars in the hamburger menu were a little out of place |
-| Safari | The application works appropriately | Yes | I noticed the bars in the hamburger menu were a little out of place |
+| Google Chrome | The application works appropriately | Yes | - |
+| Safari | The application works appropriately | Yes | - |
 
 ### Responsiveness
 
@@ -248,7 +249,7 @@ I validated my HTML with the [W3C Markup Validation Service](https://validator.w
 I ran my JavaScript through a linter, [ESLint](https://eslint.org/ "JavaScript Linter"), with no major issues. 
 You can run ESLint on any file or directory like this: `$ npx eslint yourfile.js`.
 Errors found was e.g 'title' is missing in props validation which isn't required for the application to function correctly.
-You can find more information about the issue [here](https://reactjs.org/docs/typechecking-with-proptypes.html?fbclid=IwAR0AgCEmLxhljebWPsYkhHBDVy1kwrKnd1g-jO7qma4Q1GttPOnfdfAa2bo "Typechecking with PropTypes")
+You can find more information about the typechecking with proptypes [here](https://reactjs.org/docs/typechecking-with-proptypes.html?fbclid=IwAR0AgCEmLxhljebWPsYkhHBDVy1kwrKnd1g-jO7qma4Q1GttPOnfdfAa2bo "Typechecking with PropTypes")
 
 ### Defensive design
 I've implemented defensive designs throughout the application. Fields are required before submitting. 
@@ -325,4 +326,5 @@ Below is a list of the resources used to create this project:
 - [Using the State Hook](https://reactjs.org/docs/hooks-state.html "Using the State Hook")
 - [Hooks API Reference](https://reactjs.org/docs/hooks-reference.html "Hooks API Reference")
 - [React Media Queries](https://github.com/ReactTraining/react-media "React Media Queries")
+- [React FontAwesome](https://github.com/FortAwesome/react-fontawesome "React FontAwesome")
 - [EmailJS and React](https://www.emailjs.com/docs/examples/reactjs/ "EmailJS and React")

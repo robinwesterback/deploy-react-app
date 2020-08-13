@@ -58,7 +58,7 @@ export default function BusinessROICalculator({setResult}) {
   }
 
   // onBusinessFormChanged(event) takes the value of every business kpi 
-  // and calculate results on form change (when you add numbers to the kpi:s).
+  // and calculate results on form change (when you add numbers to the KPIs).
   const onBusinessFormChanged = (event) => {
     const business = getBusiness(event.target.form.name)
     const field = event.target.name

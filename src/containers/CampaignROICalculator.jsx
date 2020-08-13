@@ -57,7 +57,7 @@ export default function CampaignROICalculator({setResult}) {
   }
 
   // onCampaignFormChanged(event) takes the value of every campaign kpi 
-  // and calculate results on form change (when you add numbers to the kpi:s).
+  // and calculate results on form change (when you add numbers to the KPIs).
   const onCampaignFormChanged = (event) => {
     const campaign = getCampaign(event.target.form.name)
     const field = event.target.name
